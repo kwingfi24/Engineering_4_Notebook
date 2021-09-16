@@ -14,6 +14,7 @@ The purpose of this assignment was to create a program that can automatically ro
 
 Vanilla version:
 
+![Screenshot 2021-09-16 9 14 33 AM](https://user-images.githubusercontent.com/60272021/133620528-a9fa2457-316c-4b7f-b66c-69d0ff2f71e8.png)
 
 
 ### Code
@@ -79,7 +80,7 @@ print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
 N/A
 
 ### Reflection
-This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions 
+This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "" worked for this
 
 
 
