@@ -48,6 +48,8 @@ This assignment takes the user's two inputs and does math with those two numbers
 
 Vanilla version:
 
+![Screenshot 2021-09-16 9 36 16 AM](https://user-images.githubusercontent.com/60272021/133622099-8a8190d2-f2ea-4caf-8040-857d76b5cdab.png)
+
 
 ### Code
 ```
