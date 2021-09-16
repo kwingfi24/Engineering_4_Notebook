@@ -1,4 +1,3 @@
-```
 # Quadratic Solver
 # Written by Kaitlyn Wingfield
 #9.16.21
@@ -35,4 +34,3 @@ else:
 #        print("not prime")
 
 #print ("Goodbye!") 
-```
