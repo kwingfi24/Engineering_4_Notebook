@@ -53,6 +53,10 @@ Vanilla version:
 
 ### Code
 ```
+#Python Claculator
+#Kaitlyn Wingfield
+#9.14.21
+
 def sum(a, b): #defining sum with the variables a and b (the first and second number) 
     return (a + b) #telling the formula that should be used
 def difference(a, b): #defining difference with the variables a and b (the first and second number) 
