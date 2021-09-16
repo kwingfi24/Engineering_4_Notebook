@@ -48,7 +48,7 @@ This assignment takes the user's two inputs and does math with those two numbers
 
 Vanilla version:
 
-![Screenshot 2021-09-16 9 36 16 AM](https://user-images.githubusercontent.com/60272021/133622099-8a8190d2-f2ea-4caf-8040-857d76b5cdab.png)
+![Screenshot 2021-09-16 9 39 53 AM](https://user-images.githubusercontent.com/60272021/133622600-0a2f2e3d-2e95-495c-bc04-6395f5926dba.png)
 
 
 ### Code
