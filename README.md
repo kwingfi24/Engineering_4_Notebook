@@ -32,7 +32,7 @@ This assignment takes the user's two inputs and does math with those two numbers
 
 Vanilla version:
 
-![Screenshot 2021-09-16 9 39 53 AM](https://user-images.githubusercontent.com/60272021/133622600-0a2f2e3d-2e95-495c-bc04-6395f5926dba.png)
+![Screenshot 2021-09-16 10 36 04 AM](https://user-images.githubusercontent.com/60272021/133631864-7301960e-5c1c-4a23-a77b-3f91d2e2e49d.png)
 
 ### Wiring
 
