@@ -1,0 +1,38 @@
+```
+# Quadratic Solver
+# Written by Kaitlyn Wingfield
+#9.16.21
+
+from math import sqrt
+from math import pow
+def check(discriminant):
+    if discriminant <= 0:
+        return False
+#def multplication(a, c):
+#    return (4*a*c)
+#def discriminant(b):
+#    return (square)
+print ("Quadratic Solver") #printing the opening line
+print ("Enter the coefficients for ax^2 + bx + c = 0") #printing the opening line
+a = int(input('Enter coefficient a: ')) #making the input a variable (a)
+b = int(input('Enter coefficient b: ')) #making the input a variable (b)
+c = int(input('Enter coefficient c: ')) #making the input a variable (c)
+
+if check(discriminant):
+    print("No real roots") 
+else:
+    
+    print("not prime")
+
+
+#print(f'Under the radical: {underradical}') 
+#ra = input ("Press enter to run again and x then enter to exit") 
+#while ra == "":
+#    if check(discriminant):
+#        print("No real roots") 
+#    else:
+    
+#        print("not prime")
+
+#print ("Goodbye!") 
+```
