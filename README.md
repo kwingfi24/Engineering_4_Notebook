@@ -79,7 +79,7 @@ print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
 N/A
 
 ### Reflection
-This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "round ( ,2)" worked for this
+This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "round ( ,2)" worked for this.
 
 
 
