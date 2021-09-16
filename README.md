@@ -53,10 +53,6 @@ Vanilla version:
 
 ### Code
 ```
-# Python Program 01 - Calculator (ENGR4)
-#Written by Kaitlyn Wingfield
-#9.14.2021
-
 def sum(a, b): #defining sum with the variables a and b (the first and second number) 
     return (a + b) #telling the formula that should be used
 def difference(a, b): #defining difference with the variables a and b (the first and second number) 
@@ -67,13 +63,14 @@ def quotient(a, b): #defining quotient with the variables a and b (the first and
     return (a / b) #telling the formula that should be used
 def modulo(a, b): #defining modulo with the variables a and b (the first and second number) 
     return (a % b) #telling the formula that should be used
+print ("Calculator Program") #printing the opening line
 a = int(input('Enter 1st number: ')) #making the input a variable (a)
 b = int(input('Enter 2nd number: ')) #making the input a variable (b)
 
 print(f'Sum: {sum(a, b)}') #printing the sum of a and b
 print(f'Differnce: {difference(a, b)}') #printing the difference of a and b
 print(f'Product: {product(a, b)}') #printing the product of a and b
-print(f'Quotient: {quotient(a, b)}') #printing the quotient of a and b
+print(f'Quotient: {(round (quotient(a, b), 2))}') #printing the quotient of a and b (only 2 decimals)
 print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
 ```
 
@@ -82,7 +79,7 @@ print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
 N/A
 
 ### Reflection
-This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "" worked for this
+This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "round ( ,2)" worked for this
 
 
 
