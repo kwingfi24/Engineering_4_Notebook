@@ -1,12 +1,22 @@
 # Engineering_4_Notebook
 Engineering 4 - Raspberry Pi
+## Table of Contents
+* [Python_Dice_Roller](#PythonDiceRoller)
+* [Python_Calculator](#Python_Calculator)
+---
+
+## Python_Dice_Roller
+### Assignment Description
+
+The purpose of this assignment was to create a program that can automatically roll dice. The program also took user input to decide whether another dice should be rolled, or if the program should exit. The spicy version added complexity by asking the user to specify the number of sides on the dice and the number of dice to be rolled at a time. The user was then asked whether they wanted to roll again with the same settings, change the settings, or exit the program. 
+
+### Evidence 
+
+Vanilla version:
 
 
-## Hello Python
-#### Description: 
-In this assignment we made an automatic dice roller that would give you a random number when you hit enter and stops when you enter x or any other key.
 
-#### Code:
+### Code
 ```
 # Automatic Dice Roller
 # Written by Kaitlyn Wingfield
@@ -21,14 +31,24 @@ while ra == "": #Saying that while ra is empty, which it will be because of pres
     ra = input ("Roll again?") 
 print ("Goodbye!") #Once the variable is not empty the while loop will stop and "Goodbye!" will end the program
 ```
-#### Reflection/Lessons learned:
-- Using google and people around you is helpful
-- Naming variables so that you can use while loops
+### Wiring
 
-## Python Program 01 – Calculator (Hello Functions)
-#### Description:
+N/A
 
-#### Code:
+### Reflection
+This assignment was relatively simple, but was challenging because I had not coded in Python for several months. I learned that I could import parts of toolboxes without importing the entire thing, but that changes the syntax of how I call the function later. I also learned about using a while loop to control whether a user wants to exit the program. For the spicy version, I needed to use nested loops. Python determines what is inside a loop by the indent level of each line of text, rather than brackets like some other coding styles. That means I need to be really careful with my tabs!
+
+## Python_Calculator
+
+### Assignment Description
+
+This assignment takes the user's two inputs and does math with those two numbers. It gives the sum, difference, product, quotient and modulo.
+### Evidence 
+
+Vanilla version:
+
+
+### Code
 ```
 # Python Program 01 - Calculator (ENGR4)
 #Written by Kaitlyn Wingfield
@@ -54,6 +74,12 @@ print(f'Quotient: {quotient(a, b)}') #printing the quotient of a and b
 print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
 ```
 
-#### Reflection/Lessons learned
+### Wiring
+
+N/A
+
+### Reflection
+This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions 
+
 
 
