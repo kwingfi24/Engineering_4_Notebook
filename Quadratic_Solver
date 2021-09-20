@@ -71,3 +71,43 @@ print(f'Discriminant: {discriminant()}')
 #        print("not prime")
 
 #print ("Goodbye!") 
+
+
+
+
+
+# Quadratic Solver
+# Written by Kaitlyn Wingfield
+#9.16.21
+
+from math import sqrt
+from math import pow
+import cmath
+def multiplication():
+    return (4*a*c)
+def square():
+    return (b*b)
+def discriminant():
+    return ((square())-(multiplication()))
+def sol1():
+    return ((-b-cmath.sqrt(d))/(2*a))
+def sol2():
+    return ((-b+cmath.sqrt(d))/(2*a))
+print ("Quadratic Solver") 
+print ("Enter the coefficients for ax^2 + bx + c = 0") 
+a = int(input('Enter coefficient a: '))
+b = int(input('Enter coefficient b: '))
+c = int(input('Enter coefficient c: '))
+
+
+print(f'Discriminant: {discriminant()}') 
+#ra = input ("Press enter to run again and x then enter to exit") 
+while discriminant() >= 0:
+    print()
+if discriminant()> 0:
+    print("No real roots") 
+#    else:
+    
+#        print("not prime")
+
+#print ("Goodbye!") 
