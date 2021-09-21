@@ -1,1 +1,6 @@
+#maybe use three main functions... 
+#(1) A function that requests a guess from the user
+#(2) A function that generates the hangman graphic, the letters guessed, and the blank letters
+#(3) A function that asks if the user wants to play again
+
 
