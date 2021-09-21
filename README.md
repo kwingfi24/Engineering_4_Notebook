@@ -51,7 +51,7 @@ The purpose of this assignment was to create a program that can solve a quadrati
 
 Vanilla version:
 
-
+![Screenshot 2021-09-21 9 17 19 AM](https://user-images.githubusercontent.com/60272021/134179410-305a5e28-3096-46b8-b26c-a06b8991aec9.png)
 
 ### Wiring
 
