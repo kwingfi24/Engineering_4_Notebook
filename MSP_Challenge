@@ -1,6 +1,14 @@
+#Man-Shaped Pinata (MSP)
+#Written by Kaitlyn Wingfield
+#9.21.2021
+
 #maybe use three main functions... 
 #(1) A function that requests a guess from the user
-#(2) A function that generates the hangman graphic, the letters guessed, and the blank letters
+#(2) A function that generates the hangman graphic and the blank letters
+#       maybe the letters guessed, but it is optional 
 #(3) A function that asks if the user wants to play again
 
-
+#Function 1
+print ("Player 1, what is the word?") 
+a = input()
+print ("\n" * 50) #clears the screen after player 1 has given the word
