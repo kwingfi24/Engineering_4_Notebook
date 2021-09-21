@@ -71,10 +71,11 @@ The purpose of this assignment was to create a program that will split the input
 
 Vanilla version:
 
-
+![Screenshot 2021-09-21 10 10 17 AM](https://user-images.githubusercontent.com/60272021/134187046-ae9c7798-d38f-43cc-9161-e7274841c1f5.png)
 
 ### Wiring
 
 N/A
 
 ### Reflection
+This was pretty simple to do, but there were new thing added. Both strings and loops were added, hence the name.......
