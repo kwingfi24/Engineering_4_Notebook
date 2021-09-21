@@ -3,6 +3,7 @@ Engineering 4 - Raspberry Pi
 ## Table of Contents
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
+* [Quadratic_Solver](#Quadratic_Solver)
 ---
 
 ## Python_Dice_Roller
@@ -41,5 +42,22 @@ N/A
 ### Reflection
 This assignment was pretty simple, other than trying to find the code needed to find the modulo. The "f'" command embeds python expressions for formatting. The most difficult part was making the quotient only show 2 places after the decimal, but "round ( ,2)" worked for this.
 
+## Quadratic_Solver
+### Assignment Description
 
+The purpose of this assignment was to create a program that can solve a quadratic using the variables/inputs given by the user. If the quadratic had no roots, the program gave the user the discriminant and said "No real roots". The user was then asked whether they wanted to run it again or exit the program. 
+
+### Evidence 
+
+Vanilla version:
+
+
+
+### Wiring
+
+N/A
+
+### Reflection
+
+I kept losing my progress on this assignment, so after 20 minutes or after big changes to the code have been made I save it. Using if statements made this assignment easier since there were two posssible outcomes, either the quadratic had rots or it didn't. Using the greater than or equal to, and less than symbols is simpiler than I first thought. I also used ra again to record the users input like in previous assignments. There are easier ways to simplify the math, I used some and didnt use others.
 
