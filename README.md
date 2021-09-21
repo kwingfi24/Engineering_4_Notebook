@@ -4,6 +4,7 @@ Engineering 4 - Raspberry Pi
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic_Solver](#Quadratic_Solver)
+* [Strings_and_loops](#Strings_and_loops)
 ---
 
 ## Python_Dice_Roller
@@ -61,3 +62,19 @@ N/A
 
 I kept losing my progress on this assignment, so after 20 minutes or after big changes to the code have been made I save it. Using if statements made this assignment easier since there were two posssible outcomes, either the quadratic had rots or it didn't. Using the greater than or equal to, and less than symbols is simpiler than I first thought. I also used ra again to record the users input like in previous assignments. There are easier ways to simplify the math, I used some and didnt use others.
 
+## Strings_and_loops
+### Assignment Description
+
+The purpose of this assignment was to create a program that will split the input given by the letter.
+
+### Evidence 
+
+Vanilla version:
+
+
+
+### Wiring
+
+N/A
+
+### Reflection
