@@ -1,0 +1,9 @@
+# String and Loops
+# Written by Kaitlyn Wingfield
+#9.21.21
+
+print ("Type in your text, then press enter:")
+str = input()
+for x in str:
+  print(x)
+  
