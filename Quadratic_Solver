@@ -4,84 +4,6 @@
 
 from math import sqrt
 from math import pow
-def check(discriminant):
-    if discriminant <= 0:
-        return False
-#def multplication(a, c):
-#    return (4*a*c)
-#def discriminant(b):
-#    return (square)
-print ("Quadratic Solver") #printing the opening line
-print ("Enter the coefficients for ax^2 + bx + c = 0") #printing the opening line
-a = int(input('Enter coefficient a: ')) #making the input a variable (a)
-b = int(input('Enter coefficient b: ')) #making the input a variable (b)
-c = int(input('Enter coefficient c: ')) #making the input a variable (c)
-
-if check(discriminant):
-    print("No real roots") 
-else:
-    
-    print("not prime")
-
-
-#print(f'Under the radical: {underradical}') 
-#ra = input ("Press enter to run again and x then enter to exit") 
-#while ra == "":
-#    if check(discriminant):
-#        print("No real roots") 
-#    else:
-    
-#        print("not prime")
-
-#print ("Goodbye!") 
-
-
-#finished, but lost it due to wifi issues... remember having a while loop
-code below is what i finished after the loss.
-
-# Quadratic Solver
-# Written by Kaitlyn Wingfield
-#9.16.21
-
-from math import sqrt
-from math import pow
-import cmath
-def multiplication():
-    return (4*a*c)
-def square():
-    return (b*b)
-def discriminant():
-    return ((square())-(multiplication()))
-print ("Quadratic Solver") #printing the opening line
-print ("Enter the coefficients for ax^2 + bx + c = 0") #printing the opening line
-a = int(input('Enter coefficient a: ')) #making the input a variable (a)
-b = int(input('Enter coefficient b: ')) #making the input a variable (b)
-c = int(input('Enter coefficient c: ')) #making the input a variable (c)
-
-
-
-
-print(f'Discriminant: {discriminant()}') 
-#ra = input ("Press enter to run again and x then enter to exit") 
-#while ra == "":
-#    if check(discriminant):
-#        print("No real roots") 
-#    else:
-    
-#        print("not prime")
-
-#print ("Goodbye!") 
-
-
-
-
-
-# Quadratic Solver
-# Written by Kaitlyn Wingfield
-#9.16.21
-
-from math import sqrt
-from math import pow
 import cmath
 def multiplication():
     return (4*a*c)
@@ -90,59 +12,37 @@ def square():
 def discriminant():
     return ((square())-(multiplication()))
 def sol1():
-    return ((-b-cmath.sqrt(d))/(2*a))
+    return ((-b-cmath.sqrt(discriminant()))/(2*a))
 def sol2():
-    return ((-b+cmath.sqrt(d))/(2*a))
+    return ((-b+cmath.sqrt(discriminant()))/(2*a))
+
 print ("Quadratic Solver") 
 print ("Enter the coefficients for ax^2 + bx + c = 0") 
 a = int(input('Enter coefficient a: '))
 b = int(input('Enter coefficient b: '))
 c = int(input('Enter coefficient c: '))
 
-
 print(f'Discriminant: {discriminant()}') 
-#ra = input ("Press enter to run again and x then enter to exit") 
-while discriminant() >= 0:
-    print()
-if discriminant()> 0:
-    print("No real roots") 
-#    else:
-    
-#        print("not prime")
-
-#print ("Goodbye!") 
-
-# Quadratic Solver
-# Written by Kaitlyn Wingfield
-#9.16.21
-
-from math import sqrt
-from math import pow
-import cmath
-def multiplication():
-    return (4*a*c)
-def square():
-    return (b*b)
-def discriminant():
-    return ((square())-(multiplication()))
-def sol1():
-    return ((-b-cmath.sqrt(d))/(2*a))
-def sol2():
-    return ((-b+cmath.sqrt(d))/(2*a))
-print ("Quadratic Solver") 
-print ("Enter the coefficients for ax^2 + bx + c = 0") 
-a = int(input('Enter coefficient a: '))
-b = int(input('Enter coefficient b: '))
-c = int(input('Enter coefficient c: '))
-
-
-print(f'Discriminant: {discriminant()}') 
-#ra = input ("Press enter to run again and x then enter to exit") 
-while discriminant() >= 0:
+if discriminant() >= 0:
     print(f'Root #1: {sol1()}')
     print(f'Root #2: {sol2()}')
-if discriminant() > 0:
+if discriminant() < 0:
     print("No real roots") 
+    
+ra = input ("Press enter to run again and x then enter to exit") 
+while ra == "":
+    print ("Enter the coefficients for ax^2 + bx + c = 0") 
+    a = int(input('Enter coefficient a: '))
+    b = int(input('Enter coefficient b: '))
+    c = int(input('Enter coefficient c: '))
 
 
-#print ("Goodbye!") 
+    print(f'Discriminant: {discriminant()}') 
+    if discriminant() >= 0:
+        print(f'Root #1: {sol1()}')
+        print(f'Root #2: {sol2()}')
+    if discriminant() < 0:
+        print("No real roots") 
+    ra = input ("Press enter to run again and x then enter to exit") 
+
+print ("Goodbye!") 
