@@ -4,6 +4,5 @@
 
 print ("Type in your text, then press enter:")
 str = input()
-for x in str:
-  print(x)
-  
+for x in str: #in str(the interger with the user's input)
+  print(x) #printing ech letter on a different line
