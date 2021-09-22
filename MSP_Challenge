@@ -16,5 +16,16 @@ print ("\n" * 50) #clears the screen after player 1 has given the word
 
 #Function 2
 print ("|----┐")
-print ("\n" * 3)
-print ()
+print ("\n")
+print ("no")
+
+#Function 3
+ra = input ("Press enter to run again and x then enter to exit") 
+
+#while loop to run the program again if the user wants
+while ra == "":
+    #program runs in here again
+    ra = input ("Press enter to run again and x then enter to exit") #ending line in while loop
+    
+#ending the program with goodbye
+print ("Goodbye!") 
