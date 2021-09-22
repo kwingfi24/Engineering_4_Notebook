@@ -12,3 +12,9 @@
 print ("Player 1, what is the word?") 
 a = input()
 print ("\n" * 50) #clears the screen after player 1 has given the word
+
+
+#Function 2
+print ("|----┐")
+print ("\n" * 3)
+print ()
