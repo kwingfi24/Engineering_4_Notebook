@@ -29,3 +29,53 @@ while ra == "":
     
 #ending the program with goodbye
 print ("Goodbye!") 
+
+
+
+
+#hangman part (not coded yet, just printing)
+#starting
+print ("|----┐")
+print ("\n")
+print ("") #blanks from word
+
+#1st wrong
+print ("|----┐")
+print ("     0")
+
+#2nd wrong
+print ("|----┐")
+print ("     0")
+print ("     |")
+
+#3rd wrong
+print ("|----┐")
+print ("     0")
+print ("    \|")
+
+#4th wrong
+print ("|----┐")
+print ("     0")
+print ("    \|/")
+
+#5th wrong
+print ("|----┐")
+print ("     0")
+print ("    \|/")
+print ("     |")
+
+#6th wrong
+print ("|----┐")
+print ("     0")
+print ("    \|/")
+print ("     |")
+print ("    /")
+
+#7th wrong
+print ("|----┐")
+print ("     0")
+print ("    \|/")
+print ("     |")
+print ("    / \ ")
+print ("Game over! You lost!")
+print ("The secret word was {secretword}")
