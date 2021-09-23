@@ -9,6 +9,49 @@
 #(3) A function that asks if the user wants to play again
 
 #Function 1
+import random
+hang = ["""
+|----┐
+
+
+
+          """, """
+|----┐
+     0
+
+
+          ""","""
+|----┐
+     0
+     |
+
+          ""","""
+|----┐
+     0
+    \|
+
+          ""","""
+|----┐
+     0
+    \|/
+
+          ""","""
+|----┐
+     0
+    \|/
+     |
+          ""","""
+|----┐
+     0
+    \|/
+     |
+    /     ""","""
+|----┐
+     0
+    \|/
+     |
+    / \     """]
+    
 print ("Player 1, what is the word?") 
 secretword = input()
 print ("\n" * 50) #clears the screen after player 1 has given the word
@@ -18,7 +61,7 @@ print ("\n" * 50) #clears the screen after player 1 has given the word
 print ("|----┐")
 print ("\n")
 #secretworde = [" steam "]
-for letter in secretword,: #in secretword(the int with the first player's input)
+for letter in 'secretword,': #in secretword(the int with the first player's input)
   print("_")
 guess1 = int(input('Player 2, what is your guess? '))
 
@@ -32,54 +75,3 @@ guess1 = int(input('Player 2, what is your guess? '))
     
 #ending the program with goodbye
 #print ("Goodbye!") 
-
-
-
-
-
-#hangman part (not coded yet, just printing)
-#starting
-print ("|----┐")
-print ("\n")
-print ("") #blanks from word
-
-#1st wrong
-print ("|----┐")
-print ("     0")
-
-#2nd wrong
-print ("|----┐")
-print ("     0")
-print ("     |")
-
-#3rd wrong
-print ("|----┐")
-print ("     0")
-print ("    \|")
-
-#4th wrong
-print ("|----┐")
-print ("     0")
-print ("    \|/")
-
-#5th wrong
-print ("|----┐")
-print ("     0")
-print ("    \|/")
-print ("     |")
-
-#6th wrong
-print ("|----┐")
-print ("     0")
-print ("    \|/")
-print ("     |")
-print ("    /")
-
-#7th wrong
-print ("|----┐")
-print ("     0")
-print ("    \|/")
-print ("     |")
-print ("    / \ ")
-print ("Game over! You lost!")
-print ("The secret word was {secretword}")
