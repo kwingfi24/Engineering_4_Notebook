@@ -2,82 +2,6 @@
 #Written by Kaitlyn Wingfield
 #9.21.2021
 #used https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Hangman-Game-using-Python.php for a start
-#maybe use three main functions... 
-#(1) A function that requests a guess from the user
-#(2) A function that generates the hangman graphic and the blank letters
-#       maybe the letters guessed, but it is optional 
-#(3) A function that asks if the user wants to play again
-
-#Function 1
-import random
-hang = ["""
-|----┐
-
-
-
-          """, """
-|----┐
-     0
-
-
-          ""","""
-|----┐
-     0
-     |
-
-          ""","""
-|----┐
-     0
-    \|
-
-          ""","""
-|----┐
-     0
-    \|/
-
-          ""","""
-|----┐
-     0
-    \|/
-     |
-          ""","""
-|----┐
-     0
-    \|/
-     |
-    /     ""","""
-|----┐
-     0
-    \|/
-     |
-    / \     """]
-    
-print ("Player 1, what is the word?") 
-secretword = input()
-print ("\n" * 50) #clears the screen after player 1 has given the word
-
-
-#Function 2
-print ("|----┐")
-print ("\n")
-
-for i in secretword:
-  print("_ ", end="")
-print ("\n")
-guess1 = int(input('Player 2, what is your guess? '))
-
-#Function 3
-#ra = input ("Press enter to run again and x then enter to exit") 
-
-#while loop to run the program again if the user wants
-#while ra == "":
-    #program runs in here again
-#    ra = input ("Press enter to run again and x then enter to exit") #ending line in while loop
-    
-#ending the program with goodbye
-#print ("Goodbye!") 
-
-
 
 
 import random
@@ -123,7 +47,6 @@ hang = ["""
      |
     / \     """]
     
-#Function 2    
 def displayBoard(hang, missedLetters, correctLetters, secretword):
     print(hang[len(missedLetters)])
     print()
@@ -150,13 +73,17 @@ def getGuess(alreadyGuessed):
         if len(guess) != 1:
             print('Please enter a single letter.')
         elif guess in alreadyGuessed:
-            print('You have already guessed that letter. Choose again.')
+            print('You have already guessed that letter. Please choose again.')
         elif guess not in 'abcdefghijklmnopqrstuvwxyz':
-            print('Please enter a LETTER.')
+            print('Please enter a letter.')
         else:
             return guess
 
-#Function 1
+missedLetters = ''
+correctLetters = ''
+secretword = input()
+gameIsDone = False
+
 print ("Player 1, what is the word?") 
 secretword = input()
 print ("\n" * 50) #clears the screen after player 1 has given the word
@@ -165,3 +92,24 @@ for i in secretword:
   print("_ ", end="")
 print ("\n")
 guess1 = int(input('Player 2, what is your guess? '))
+
+while True:
+    
+    
+    
+        if gameIsDone:
+          if playAgain():
+             missedLetters = ''
+             correctLetters = ''
+             gameIsDone = False
+        else:
+            break
+
+pa = input ("Press enter to play again or x then enter to exit") 
+#while loop to run the program again if the user wants
+while pa == "":
+    #program runs in here again
+    pa = input ("Press enter to play again or x then enter to exit") #ending line in while loop
+    
+#ending the program with goodbye
+print ("Goodbye!") 
