@@ -60,9 +60,10 @@ print ("\n" * 50) #clears the screen after player 1 has given the word
 #Function 2
 print ("|----┐")
 print ("\n")
-#secretworde = [" steam "]
-for letter in 'secretword,': #in secretword(the int with the first player's input)
-  print("_")
+
+for i in secretword:
+  print("_ ", end="")
+print ("\n")
 guess1 = int(input('Player 2, what is your guess? '))
 
 #Function 3
