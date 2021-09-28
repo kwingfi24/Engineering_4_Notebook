@@ -1,7 +1,7 @@
 #Man-Shaped Pinata (MSP)
 #Written by Kaitlyn Wingfield
 #9.21.2021
-
+#used https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Hangman-Game-using-Python.php for a start
 #maybe use three main functions... 
 #(1) A function that requests a guess from the user
 #(2) A function that generates the hangman graphic and the blank letters
