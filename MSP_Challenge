@@ -76,3 +76,92 @@ guess1 = int(input('Player 2, what is your guess? '))
     
 #ending the program with goodbye
 #print ("Goodbye!") 
+
+
+
+
+import random
+hang = ["""
+|----┐
+
+
+
+          """, """
+|----┐
+     0
+
+
+          ""","""
+|----┐
+     0
+     |
+
+          ""","""
+|----┐
+     0
+    \|
+
+          ""","""
+|----┐
+     0
+    \|/
+
+          ""","""
+|----┐
+     0
+    \|/
+     |
+          ""","""
+|----┐
+     0
+    \|/
+     |
+    /     ""","""
+|----┐
+     0
+    \|/
+     |
+    / \     """]
+    
+#Function 2    
+def displayBoard(hang, missedLetters, correctLetters, secretword):
+    print(hang[len(missedLetters)])
+    print()
+
+    print('Missed Letters:', end=' ')
+    for letter in missedLetters:
+        print(letter, end=' ')
+    print("\n")
+
+    blanks = '_' * len(secretword)
+
+    for i in range(len(secretword)):  # replace blanks with correctly guessed letters
+        if secretword[i] in correctLetters:
+            blanks = blanks[:i] + secretword[i] + blanks[i+1:]
+
+    for letter in blanks:  # show the secret word with spaces in between each letter
+        print(letter, end=' ')
+    print("\n")
+    
+def getGuess(alreadyGuessed):
+    while True:
+        guess = input('Guess a letter: ')
+        guess = guess.lower()
+        if len(guess) != 1:
+            print('Please enter a single letter.')
+        elif guess in alreadyGuessed:
+            print('You have already guessed that letter. Choose again.')
+        elif guess not in 'abcdefghijklmnopqrstuvwxyz':
+            print('Please enter a LETTER.')
+        else:
+            return guess
+
+#Function 1
+print ("Player 1, what is the word?") 
+secretword = input()
+print ("\n" * 50) #clears the screen after player 1 has given the word
+
+for i in secretword:
+  print("_ ", end="")
+print ("\n")
+guess1 = int(input('Player 2, what is your guess? '))
