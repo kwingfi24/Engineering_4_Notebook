@@ -37,6 +37,10 @@ Vanilla version:
 
 ![Screenshot 2021-09-16 10 36 04 AM](https://user-images.githubusercontent.com/60272021/133631864-7301960e-5c1c-4a23-a77b-3f91d2e2e49d.png)
 
+Spicy Version:
+
+![Screenshot 2021-09-30 10 25 28 AM](https://user-images.githubusercontent.com/60272021/135474434-30f46ecc-ae61-4d9b-96e7-c98415d5f9e2.png)
+
 ### Wiring
 
 N/A
