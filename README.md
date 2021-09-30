@@ -90,7 +90,11 @@ Make a 2 player hangman game. This program will let player 2 play the game with 
 
 Vanilla version:
 
-![Screenshot
+![Screenshot 2021-09-30 10 01 05 AM](https://user-images.githubusercontent.com/60272021/135469982-a46ab4a2-929e-46b2-9d14-89e24effa059.png)
+
+Spicy Version:
+
+
 
 ### Wiring
 
