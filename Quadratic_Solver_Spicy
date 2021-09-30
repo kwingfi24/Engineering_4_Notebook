@@ -63,3 +63,71 @@ while ra == "":
 
 #ending the program with goodbye
 print ("Goodbye!") 
+
+
+#Not working but wanted to save just in case
+# Quadratic Solver
+# Written by Kaitlyn Wingfield
+#9.16.21
+
+#importing the needed
+from math import sqrt
+from math import pow
+import cmath
+
+#defining all the math that is needed
+def multiplication():
+    return (4*a*c)
+def square():
+    return (b*b)
+def discriminant():
+    return ((square())-(multiplication()))
+def sol1():
+    return ((-b-cmath.sqrt(discriminant()))/(2*a))
+def sol2():
+    return ((-b+cmath.sqrt(discriminant()))/(2*a))
+def h():
+    return (-b/(2*a))
+def k():
+    return (c+h)
+def vertexform():
+    return (a((x-h())^2+k()))
+
+#printing the opening and getting the inputs for the variables
+print ("Quadratic Solver") 
+print ("Enter the coefficients for ax^2 + bx + c = 0") 
+a = int(input('Enter coefficient a: '))
+b = int(input('Enter coefficient b: '))
+c = int(input('Enter coefficient c: '))
+
+#giving the roots of the quadratic 
+if discriminant() >= 0:
+    print(f'Root #1: {sol1()}')
+    print(f'Root #2: {sol2()}')
+    
+#if the discriminant is less than 0, it will say the discriminant and say no real roots
+if discriminant() < 0:
+    print(f'Discriminant: {discriminant()}') 
+    print("No real roots") 
+    
+ra = input ("Press enter to run again and x then enter to exit") 
+
+#while loop to run the program again if the user wants
+while ra == "":
+    print ("Enter the coefficients for ax^2 + bx + c = 0") 
+    a = int(input('Enter coefficient a: '))
+    b = int(input('Enter coefficient b: '))
+    c = int(input('Enter coefficient c: '))
+
+
+    print(f'Discriminant: {discriminant()}') 
+    if discriminant() >= 0:
+        print(f'Root #1: {sol1()}')
+        print(f'Root #2: {sol2()}')
+        print(f'Vertex Form: {vertexform()}')
+    if discriminant() < 0:
+        print("No real roots") 
+    ra = input ("Press enter to run again and x then enter to exit") 
+
+#ending the program with goodbye
+print ("Goodbye!") 
