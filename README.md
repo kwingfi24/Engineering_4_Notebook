@@ -84,7 +84,7 @@ This was pretty simple to do, but there were new thing added. Both strings and l
 ## MSP_Challenge
 ### Assignment Description
 
-Make a 2 player hangman game. This program will let player 2 play the game with  word given by player two. The spicy version also adds the missed letters.
+Make a 2 player hangman game. This program will let player 2 play the game with  word given by player two. The spicy version also adds the missed letters. I've also included codes that will be more picky onthe plyer's guesses telling them if they already tried it, didn't enter a letter, or entered multiple letters.
 
 ### Evidence 
 
