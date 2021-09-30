@@ -94,7 +94,7 @@ Vanilla version:
 
 Spicy Version:
 
-
+![Screenshot 2021-09-30 10 01 45 AM](https://user-images.githubusercontent.com/60272021/135470187-a8cd2345-b630-444d-9d26-009caac72faf.png)
 
 ### Wiring
 
