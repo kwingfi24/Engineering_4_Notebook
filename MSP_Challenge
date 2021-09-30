@@ -3,8 +3,8 @@
 #9.21.2021
 #used https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Hangman-Game-using-Python.php for a start
 
-
 import random
+#The hangman graphic
 hang = ["""
 |----┐
 
@@ -46,385 +46,8 @@ hang = ["""
     \|/
      |
     / \     """]
-    
-def displayBoard(hang, missedLetters, correctLetters, secretword):
-    print(hang[len(missedLetters)])
-    print()
-
-    print('Missed Letters:', end=' ')
-    for letter in missedLetters:
-        print(letter, end=' ')
-    print("\n")
-
-    blanks = '_' * len(secretword)
-
-    for i in range(len(secretword)):  # replace blanks with correctly guessed letters
-        if secretword[i] in correctLetters:
-            blanks = blanks[:i] + secretword[i] + blanks[i+1:]
-
-    for letter in blanks:  # show the secret word with spaces in between each letter
-        print(letter, end=' ')
-    print("\n")
-    
-def getGuess(alreadyGuessed):
-    while True:
-        guess = input('Guess a letter: ')
-        guess = guess.lower()
-        if len(guess) != 1:
-            print('Please enter a single letter.')
-        elif guess in alreadyGuessed:
-            print('You have already guessed that letter. Please choose again.')
-        elif guess not in 'abcdefghijklmnopqrstuvwxyz':
-            print('Please enter a letter.')
-        else:
-            return guess
-
-missedLetters = ''
-correctLetters = ''
-gameIsDone = False
-
-print ("Player 1, what is the word?") 
-secretword = input()
-print ("\n" * 50) #clears the screen after player 1 has given the word
-
-
-print ('Player 2, what is your guess? ')
-
-while gameIsDone == False:
-    displayBoard(hang, missedLetters, correctLetters, secretword)
-
-    guess = getGuess(missedLetters + correctLetters)
-
-    if guess in secretword:
-        correctLetters = correctLetters + guess
-
-        foundAllLetters = True
-        for i in range(len(secretword)):
-            if secretword[i] not in correctLetters:
-                foundAllLetters = False
-                break
-        if foundAllLetters:
-            print('\nYes! The secret word is "' +
-                  secretword + '"! You have won!')
-            gameIsDone = True
-    else:
-        missedLetters = missedLetters + guess
-
-        if len(missedLetters) == len(hang) - 1:
-            displayBoard(hang, missedLetters,
-                         correctLetters, secretword)
-            print('You have run out of guesses!\nAfter ' + str(len(missedLetters)) + ' missed guesses and ' +
-                  str(len(correctLetters)) + ' correct guesses, the word was "' + secretword + '"')
-            gameIsDone = True
-        else:
-            break
-
-#pa = input ("Press enter to play again or x then enter to exit") 
-#while loop to run the program again if the user wants
-#while pa == "":
-    #program runs in here again
-#    pa = input ("Press enter to play again or x then enter to exit") #ending line in while loop
-    
-#ending the program with goodbye
-#print ("Goodbye!") 
-
-
-#Man-Shaped Pinata (MSP)
-#Written by Kaitlyn Wingfield
-#9.21.2021
-#used https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Hangman-Game-using-Python.php for a start
-
-
-import random
-hang = ["""
-|----┐
-
-
-
-          """, """
-|----┐
-     0
-
-
-          ""","""
-|----┐
-     0
-     |
-
-          ""","""
-|----┐
-     0
-    \|
-
-          ""","""
-|----┐
-     0
-    \|/
-
-          ""","""
-|----┐
-     0
-    \|/
-     |
-          ""","""
-|----┐
-     0
-    \|/
-     |
-    /     ""","""
-|----┐
-     0
-    \|/
-     |
-    / \     """]
-    
-def displayBoard(hang, missedLetters, correctLetters, secretword):
-    print(hang[len(missedLetters)])
-    print()
-
-    print('Missed Letters:', end=' ')
-    for letter in missedLetters:
-        print(letter, end=' ')
-    print("\n")
-
-    blanks = '_' * len(secretword)
-
-    for i in range(len(secretword)):  # replace blanks with correctly guessed letters
-        if secretword[i] in correctLetters:
-            blanks = blanks[:i] + secretword[i] + blanks[i+1:]
-
-    for letter in blanks:  # show the secret word with spaces in between each letter
-        print(letter, end=' ')
-    print("\n")
-    
-def getGuess(alreadyGuessed):
-    while True:
-        guess = input('Guess a letter: ')
-        guess = guess.lower()
-        if len(guess) != 1:
-            print('Please enter a single letter.')
-        elif guess in alreadyGuessed:
-            print('You have already guessed that letter. Please choose again.')
-        elif guess not in 'abcdefghijklmnopqrstuvwxyz':
-            print('Please enter a letter.')
-        else:
-            return guess
-
-
-print ("Player 1, what is the word?") 
-missedLetters = ''
-correctLetters = ''
-secretword = input()
-gameIsDone = False
-print ("\n" * 50) #clears the screen after player 1 has given the word
-print ('Player 2, what is your guess? ')
-
-while gameIsDone == False:
-    displayBoard(hang, missedLetters, correctLetters, secretword)
-
-    guess = getGuess(missedLetters + correctLetters)
-
-    if guess in secretword:
-        correctLetters = correctLetters + guess
-
-        foundAllLetters = True
-        for i in range(len(secretword)):
-    if secretword[i] not in correctLetters:
-        foundAllLetters = False
-        break
-    if foundAllLetters:
-        print('\nYes! The secret word is "' + secretword + '"! You have won!')
-        gameIsDone = True
-    else:
-        missedLetters = missedLetters + guess
-
-        if len(missedLetters) == len(hang) - 1:
-            displayBoard(hang, missedLetters,
-                         correctLetters, secretword)
-            print('You have run out of guesses! The word was "' + secretword + '"')
-            gameIsDone = True
-        else:
-            break
-
-#pa = input ("Press enter to play again or x then enter to exit") 
-#while loop to run the program again if the user wants
-#while pa == "":
-    #program runs in here again
-#    pa = input ("Press enter to play again or x then enter to exit") #ending line in while loop
-    
-#ending the program with goodbye
-#print ("Goodbye!") 
-
-
-#Man-Shaped Pinata (MSP)
-#Written by Kaitlyn Wingfield
-#9.21.2021
-#used https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Hangman-Game-using-Python.php for a start
-
-
-import random
-hang = ["""
-|----┐
-
-
-
-          """, """
-|----┐
-     0
-
-
-          ""","""
-|----┐
-     0
-     |
-
-          ""","""
-|----┐
-     0
-    \|
-
-          ""","""
-|----┐
-     0
-    \|/
-
-          ""","""
-|----┐
-     0
-    \|/
-     |
-          ""","""
-|----┐
-     0
-    \|/
-     |
-    /     ""","""
-|----┐
-     0
-    \|/
-     |
-    / \     """]
-    
-def displayBoard(hang, missedLetters, correctLetters, secretword):
-    print(hang[len(missedLetters)])
-    print()
-
-    print('Missed Letters:', end=' ')
-    for letter in missedLetters:
-        print(letter, end=' ')
-    print("\n")
-
-    blanks = '_' * len(secretword)
-
-    for i in range(len(secretword)):  # replace blanks with correctly guessed letters
-        if secretword[i] in correctLetters:
-            blanks = blanks[:i] + secretword[i] + blanks[i+1:]
-
-    for letter in blanks:  # show the secret word with spaces in between each letter
-        print(letter, end=' ')
-    print("\n")
-    
-def getGuess(alreadyGuessed):
-    while True:
-        guess = input('Guess a letter: ')
-        guess = guess.lower()
-        if len(guess) != 1:
-            print('Please enter a single letter.')
-        elif guess in alreadyGuessed:
-            print('You have already guessed that letter. Please choose again.')
-        elif guess not in 'abcdefghijklmnopqrstuvwxyz':
-            print('Please enter a letter.')
-        else:
-            return guess
-
-
-print ("Player 1, what is the word?") 
-missedLetters = ''
-correctLetters = ''
-secretword = input()
-gameIsDone = False
-print ("\n" * 50) #clears the screen after player 1 has given the word
-print ('Player 2, what is your guess? ')
-
-while gameIsDone == False:
-    displayBoard(hang, missedLetters, correctLetters, secretword)
-
-    guess = getGuess(missedLetters + correctLetters)
-
-    if guess in secretword:
-        correctLetters = correctLetters + guess
-
-        foundAllLetters = True
-        for i in range(len(secretword)):
-            if secretword[i] not in correctLetters:
-                foundAllLetters = False
-                break
-    if foundAllLetters:
-        print('Yes! The secret word is "' + secretword + '"! You have won!')
-        gameIsDone = True
-    if missedLetters = missedLetters + guess:
-        if len(missedLetters) == len(hang) - 1:
-            displayBoard(hang, missedLetters,
-                         correctLetters, secretword)
-            print('You have run out of guesses! The word was "' + secretword + '"')
-            gameIsDone = True
-        else:
-            break
-
-#pa = input ("Press enter to play again or x then enter to exit") 
-#while loop to run the program again if the user wants
-#while pa == "":
-    #program runs in here again
-#    pa = input ("Press enter to play again or x then enter to exit") #ending line in while loop
-    
-#ending the program with goodbye
-#print ("Goodbye!") 
-
-
-
-import random
-hang = ["""
-|----┐
-
-
-
-          """, """
-|----┐
-     0
-
-
-          ""","""
-|----┐
-     0
-     |
-
-          ""","""
-|----┐
-     0
-    \|
-
-          ""","""
-|----┐
-     0
-    \|/
-
-          ""","""
-|----┐
-     0
-    \|/
-     |
-          ""","""
-|----┐
-     0
-    \|/
-     |
-    /     ""","""
-|----┐
-     0
-    \|/
-     |
-    / \     """]
-    
+ 
+#handles the display part and enters the blank letters in the beginning 
 def displayBoard(hang, missedLetters, correctLetters, secretWord):
     print(hang[len(missedLetters)])
     print()
@@ -444,7 +67,7 @@ def displayBoard(hang, missedLetters, correctLetters, secretWord):
         print(letter, end=' ')
     print("\n")
 
-
+#defining everything with the guesses
 def getGuess(alreadyGuessed):
     while True:
         guess = input('Guess a letter: ')
@@ -458,47 +81,51 @@ def getGuess(alreadyGuessed):
         else:
             return guess
 
-
+#easier way to run the program again if the player wants
 def playAgain():
     return input("\nDo you want to play again? ").lower().startswith('y')
 
+#getting player 1's word and clearing the screen
 print ("Player 1, what is your word?")
+print ("\n" * 50)
+
 missedLetters = ''
 correctLetters = ''
 secretWord = input()
 gameIsDone = False
+
 
 while True:
     displayBoard(hang, missedLetters, correctLetters, secretWord)
 
     guess = getGuess(missedLetters + correctLetters)
 
-    if guess in secretWord:
-        correctLetters = correctLetters + guess
+    if guess in secretWord: #if the guess is in the word...
+        correctLetters = correctLetters + guess #...replaces the blanks, but player 2 has not won
 
         foundAllLetters = True
-        for i in range(len(secretWord)):
+        for i in range(len(secretWord)): 
             if secretWord[i] not in correctLetters:
                 foundAllLetters = False
                 break
-        if foundAllLetters:
-            print('\nYou won! The secret word is "' +
-                  secretWord + '"')
+        if foundAllLetters: #...ends the game because player 2 won
+            print('\nYou won! The secret word is "' + secretWord + '"')
             gameIsDone = True
-    else:
-        missedLetters = missedLetters + guess
+    else: #if the letter is not in the word...
+        missedLetters = missedLetters + guess #adds letter to the missed letters and adds a part of the hangman
 
-        if len(missedLetters) == len(hang) - 1:
-            displayBoard(hang, missedLetters,
-                         correctLetters, secretWord)
-            print('You have run out of guesses! The secret word was "' + secretWord + '"')
+        if len(missedLetters) == len(hang) - 1: #...the player has lost and the game ends
+            displayBoard(hang, missedLetters,correctLetters, secretWord)
+            print('You have no more guesses! The secret word was "' + secretWord + '"')
             gameIsDone = True
 
-    if gameIsDone:
+    if gameIsDone: #the player has either won or lost... now asking if they want to play again
         if playAgain():
             missedLetters = ''
             correctLetters = ''
             gameIsDone = False
             secretWord = input()
-        else:
+        else: #if the don't want to play, it ends 
+            print ("Thanks for playing. Goodbye!")
             break
+        
