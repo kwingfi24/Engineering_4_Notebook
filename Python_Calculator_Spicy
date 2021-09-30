@@ -1,6 +1,6 @@
 #Python Calculator
 #Kaitlyn Wingfield
-#9.14.21
+#9.30.21
 
 import math 
 def sum(a, b): #defining sum with the variables a and b (the first and second number) 
