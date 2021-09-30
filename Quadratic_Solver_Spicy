@@ -1,5 +1,4 @@
-
-# Quadratic Solver
+# Quadratic Solver Spicy
 # Written by Kaitlyn Wingfield
 #9.30.21
 
@@ -19,6 +18,12 @@ def sol1():
     return ((-b-cmath.sqrt(discriminant()))/(2*a))
 def sol2():
     return ((-b+cmath.sqrt(discriminant()))/(2*a))
+def h():
+    return ()
+def k():
+    return ()
+def vertexform:
+    return (a((x-h())*(x-h()))+k())
 
 #printing the opening and getting the inputs for the variables
 print ("Quadratic Solver") 
@@ -51,6 +56,7 @@ while ra == "":
     if discriminant() >= 0:
         print(f'Root #1: {sol1()}')
         print(f'Root #2: {sol2()}')
+        print(f'Vertex Form: {vertexform()}')
     if discriminant() < 0:
         print("No real roots") 
     ra = input ("Press enter to run again and x then enter to exit") 
