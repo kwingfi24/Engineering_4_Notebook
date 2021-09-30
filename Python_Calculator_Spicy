@@ -1,0 +1,30 @@
+#Python Calculator
+#Kaitlyn Wingfield
+#9.14.21
+
+import math 
+def sum(a, b): #defining sum with the variables a and b (the first and second number) 
+    return (a + b) #telling the formula that should be used
+def difference(a, b): #defining difference with the variables a and b (the first and second number) 
+    return (a - b) #telling the formula that should be used
+def product(a, b): #defining product with the variables a and b (the first and second number) 
+    return (a * b) #telling the formula that should be used
+def quotient(a, b): #defining quotient with the variables a and b (the first and second number) 
+    return (a / b) #telling the formula that should be used
+def modulo(a, b): #defining modulo with the variables a and b (the first and second number) 
+    return (a % b) #telling the formula that should be used
+def factorial1(a, b): #1st factorial
+    return math.factorial(a)
+def factorial2(a, b): #second factorial
+    return math.factorial(b)
+print ("Calculator Program Spicy") #printing the opening line
+a = int(input('Enter 1st number: ')) #making the input a variable (a)
+b = int(input('Enter 2nd number: ')) #making the input a variable (b)
+
+print(f'Sum: {sum(a, b)}') #printing the sum of a and b
+print(f'Differnce: {difference(a, b)}') #printing the difference of a and b
+print(f'Product: {product(a, b)}') #printing the product of a and b
+print(f'Quotient: {(round (quotient(a, b), 2))}') #printing the quotient of a and b (only 2 decimals)
+print(f'Modulo: {modulo(a, b)}') #printing the modulo of a and b
+print(f'1st Factorial: {factorial1(a, b)}')
+print(f'2nd Factorial: {factorial2(a, b)}')
