@@ -101,4 +101,4 @@ Spicy Version:
 N/A
 
 ### Reflection
-
+The previous assignments helped with the basics of this assignment, but I'm not proud of how much I had to use other resources rather than my brain. Instead of searching directly for answers next time, I think I would benefit more by searching for and learning each piece. It was interesting to see how this simple game uses a pretty complicated code. Tip for the future.... break things down in parts! iIt was a lot simpiler this way and taking it bit by bit rather than biting off more than I can chew.
