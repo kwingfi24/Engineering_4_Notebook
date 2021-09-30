@@ -87,7 +87,6 @@ def playAgain():
 
 #getting player 1's word and clearing the screen
 print ("Player 1, what is your word?")
-print ("\n" * 50)
 
 missedLetters = ''
 correctLetters = ''
