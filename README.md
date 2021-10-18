@@ -11,7 +11,7 @@ Engineering 4 - Raspberry Pi
 ## Python_Dice_Roller
 ### Assignment Description
 
-The purpose of this assignment was to create a program that can automatically roll dice. The program also took user input to decide whether another dice should be rolled, or if the program should exit. The spicy version added complexity by asking the user to specify the number of sides on the dice and the number of dice to be rolled at a time. The user was then asked whether they wanted to roll again with the same settings, change the settings, or exit the program. 
+The purpose of this assignment was to create a program that can automatically roll dice. The program also took user input to decide whether another dice should be rolled, or if the program should exit.
 
 ### Evidence 
 
