@@ -122,7 +122,7 @@ Configuration #1
 
 Configuration #2
 
-![Screenshot 2021-10-13 10 09 47 PM](https://user-images.githubusercontent.com/89222808/137238944-1d552151-7784-423e-88ad-8f4976325d97.png)
+![Screenshot 2021-10-18 10 15 31 AM](https://user-images.githubusercontent.com/60272021/137748826-ffa06636-07cc-4092-b044-35526aef89f6.png)
 
 ### Part Link
 [Swing Arm Part](https://cvilleschools.onshape.com/documents/b20e3fd89d9f33d0597f58c1/w/6080ec1c7390420c270dd046/e/9519cc0f902e043ed5ae4153?renderMode=0&uiState=616d80202ba4eb00139a1495)
@@ -130,3 +130,27 @@ Configuration #2
 
 ### Reflection
 Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
+
+## Skateboard
+
+### Assignment Description
+
+This assingment's purpose is to give us more practice in Onshape. This assignment showed me different things in Onshape, newer and more efficient ways to do things, and retaught me how to make an assembly after not doing it in so long.
+
+### Evidence 
+
+In the part studio:
+
+here
+
+After the assembly:
+
+here
+
+### Part Link
+
+[Skateboard]()
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
