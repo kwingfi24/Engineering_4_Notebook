@@ -118,7 +118,7 @@ This assignment asked me to replicate a swing arm part from a set of drawings. T
 
 Configuration #1
 
-![Screenshot 2021-10-13 10 10 05 PM](https://user-images.githubusercontent.com/89222808/137238893-1fb00671-a56e-4945-a0b9-d2524f2dbd67.png)
+![Screenshot 2021-10-18 10 11 35 AM](https://user-images.githubusercontent.com/60272021/137748452-edd78be5-9293-4c41-979e-101bc1e99b41.png)
 
 Configuration #2
 
