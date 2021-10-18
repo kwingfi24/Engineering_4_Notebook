@@ -6,6 +6,7 @@ Engineering 4 - Raspberry Pi
 * [Quadratic_Solver](#Quadratic_Solver)
 * [Strings_and_loops](#Strings_and_loops)
 * [MSP_Challenge](#MSP_Challenge)
+* [CAD_Swing_Arm](#CAD_Swing_Arm)
 ---
 
 ## Python_Dice_Roller
@@ -106,3 +107,26 @@ N/A
 
 ### Reflection
 The previous assignments helped with the basics of this assignment, but I'm not proud of how much I had to use other resources rather than my brain. Instead of searching directly for answers next time, I think I would benefit more by searching for and learning each piece. It was interesting to see how this simple game uses a pretty complicated code. Tip for the future.... break things down in parts! iIt was a lot simpiler this way and taking it bit by bit rather than biting off more than I can chew.
+
+## CAD_Swing_Arm 
+
+### Assignment Description
+
+This assignment asked me to replicate a swing arm part from a set of drawings. The assignment style is similar to a portion of the Onshape Associate Certification test.
+
+### Evidence 
+
+Configuration #1
+
+![Screenshot 2021-10-13 10 10 05 PM](https://user-images.githubusercontent.com/89222808/137238893-1fb00671-a56e-4945-a0b9-d2524f2dbd67.png)
+
+Configuration #2
+
+![Screenshot 2021-10-13 10 09 47 PM](https://user-images.githubusercontent.com/89222808/137238944-1d552151-7784-423e-88ad-8f4976325d97.png)
+
+### Part Link
+[Swing Arm Part](https://cvilleschools.onshape.com/documents/b20e3fd89d9f33d0597f58c1/w/6080ec1c7390420c270dd046/e/9519cc0f902e043ed5ae4153?renderMode=0&uiState=616d80202ba4eb00139a1495)
+
+
+### Reflection
+Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
