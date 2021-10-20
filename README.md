@@ -145,12 +145,15 @@ here
 
 After the assembly:
 
-here
+![Screenshot 2021-10-20 6 19 23 PM](https://user-images.githubusercontent.com/60272021/138180565-fabe0049-59a6-494c-bd44-0203eb372341.png)
+
+![Screenshot 2021-10-20 6 19 41 PM](https://user-images.githubusercontent.com/60272021/138180633-3fe20979-8797-4b1f-b6bc-c3d48f12d36a.png)
+
 
 ### Part Link
 
-[Skateboard]()
+[Skateboard](https://cvilleschools.onshape.com/documents/831bb81580d65a7561ba4911/w/a98a3fb6435c68f3314c333e/e/afe3b851f0d2c0c4cb34e7c1?renderMode=0&uiState=6170970f97410a1ace46edfa)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+I found a bunch of new ways to do things such as the replicate and offsets. I'm glad that there were a lot of mates in this because I've always struggled with the assembly sides of things. 
