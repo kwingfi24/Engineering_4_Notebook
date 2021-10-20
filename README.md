@@ -141,7 +141,7 @@ This assingment's purpose is to give us more practice in Onshape. This assignmen
 
 In the part studio:
 
-here
+![Screenshot 2021-10-20 6 28 48 PM](https://user-images.githubusercontent.com/60272021/138181939-c294c0a1-108f-4974-8b9e-b914005158d7.png)
 
 After the assembly:
 
