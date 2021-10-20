@@ -143,11 +143,14 @@ In the part studio:
 
 ![Screenshot 2021-10-20 6 28 48 PM](https://user-images.githubusercontent.com/60272021/138181939-c294c0a1-108f-4974-8b9e-b914005158d7.png)
 
+![Screenshot 2021-10-20 6 44 23 PM](https://user-images.githubusercontent.com/60272021/138182825-f020b2b2-9891-4d4f-823c-b51fd63e7927.png)
+
+
 After the assembly:
 
 ![Screenshot 2021-10-20 6 19 23 PM](https://user-images.githubusercontent.com/60272021/138180565-fabe0049-59a6-494c-bd44-0203eb372341.png)
 
-![Screenshot 2021-10-20 6 19 41 PM](https://user-images.githubusercontent.com/60272021/138180633-3fe20979-8797-4b1f-b6bc-c3d48f12d36a.png)
+![Screenshot 2021-10-20 6 43 04 PM](https://user-images.githubusercontent.com/60272021/138182808-b63a29d8-1666-441c-8ac1-0a9efdf5ff6c.png)
 
 
 ### Part Link
