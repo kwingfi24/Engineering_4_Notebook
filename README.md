@@ -84,7 +84,7 @@ Vanilla version:
 N/A
 
 ### Reflection
-This was pretty simple to do, but there were new thing added. Both strings and loops were added, hence the name.......
+This was pretty simple to do, but there were new things added. I learned about strings and loops mostly through [this website](https://www.w3schools.com/python/python_for_loops.asp). It walked through different steps and how you can change it to get different outcomes. This will be helpful for the MSP Challenge coming up.
 
 ## MSP_Challenge
 ### Assignment Description
@@ -159,4 +159,4 @@ After the assembly:
 
 ### Reflection
 
-I found a bunch of new ways to do things such as the replicate and offsets. I'm glad that there were a lot of mates in this because I've always struggled with the assembly sides of things. 
+In this assignment I found a lot of new tools, ways to do things, and practice with assemblies. After being introduced to Onshape last year, but not getting a whole bunch of practice with it, I feel a lot more confident after this assignment. I learned how to use new tool such as the replicate and offsets. I also got to do more things in the #d side of onshape like bending the board and adding holes using the hole tool. After the different part making, the assembly side of things was also very educational for me. I've always sturggled with mates and after this assignment, I feel a bit better about mates.
