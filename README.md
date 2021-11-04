@@ -7,6 +7,8 @@ Engineering 4 - Raspberry Pi
 * [Strings_and_loops](#Strings_and_loops)
 * [MSP_Challenge](#MSP_Challenge)
 * [CAD_Swing_Arm](#CAD_Swing_Arm)
+* [CAD Skateboard](#CAD_Skateboard)
+* [CAD Duck](#CAD_Duck)
 ---
 
 ## Python_Dice_Roller
@@ -131,7 +133,7 @@ Configuration #2
 ### Reflection
 Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
 
-## Skateboard
+## CAD_Skateboard
 
 ### Assignment Description
 
@@ -160,3 +162,65 @@ After the assembly:
 ### Reflection
 
 In this assignment I found a lot of new tools, ways to do things, and practice with assemblies. After being introduced to Onshape last year, but not getting a whole bunch of practice with it, I feel a lot more confident after this assignment. I learned how to use new tool such as the replicate and offsets. I also got to do more things in the #d side of onshape like bending the board and adding holes using the hole tool. After the different part making, the assembly side of things was also very educational for me. I've always sturggled with mates and after this assignment, I feel a bit better about mates.
+
+
+## CAD_Duck
+
+### Assignment Description
+
+
+
+### Evidence 
+
+Original 2x4 Lego:
+
+
+
+Configurations:
+
+
+
+After the assembly:
+
+
+
+Drawing:
+
+
+
+### Part Link
+
+[Duck]()
+
+### Reflection
+
+
+## CAD_Leg_Creation
+
+### Assignment Description
+
+
+
+### Evidence 
+
+Original 2x4 Lego:
+
+
+
+Configurations:
+
+
+
+After the assembly:
+
+
+
+Drawing:
+
+
+
+### Part Link
+
+[Helicopter]()
+
+### Reflection
