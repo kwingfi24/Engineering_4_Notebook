@@ -169,8 +169,7 @@ In this assignment I found a lot of new tools, ways to do things, and practice w
 
 ### Assignment Description
 
-In this assignment, I made configurations and did a bunch of new things with them. I leanerd how to name parts, supress certain features, and color different parts through a configuration. I also learned how drawings worked (including BOMs) and variables.
-
+In this assignment, we made a single 2x4 lego and added a bunch f configurations to it to make endless possible configurations with different sizes, types, and colors. 
 ### Evidence 
 
 Original 2x4 Lego:
@@ -203,6 +202,7 @@ Drawing:
 
 ### Reflection
 
+I made configurations and did a bunch of new things with them. I leanerd how to name parts, supress certain features, and color different parts through a configuration. I also learned how drawings worked (including BOMs) and variables.
 
 ## CAD_Leg_Creation
 
@@ -226,11 +226,11 @@ Configurations:
 
 After the assembly:
 
-
+STILL IN PROGRESS
 
 Drawing:
 
-
+STILL IN PROGRESS
 
 ### Part Link
 
