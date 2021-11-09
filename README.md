@@ -215,11 +215,11 @@ In this assignment we were given a picture to sketch into onshape, then we set i
 
 Part:
 
-here
+![Screenshot 2021-11-09 9 39 46 AM](https://user-images.githubusercontent.com/60272021/140944550-efbcc374-6b21-4049-8644-a25f3a33952b.png)
 
 Drawing:
 
-here
+![Screenshot 2021-11-09 9 40 06 AM](https://user-images.githubusercontent.com/60272021/140944586-626e8a61-ce57-4dca-a2bc-3dbea6ffc28e.png)
 
 
 ### Part Link
