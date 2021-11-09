@@ -9,7 +9,6 @@ Engineering 4 - Raspberry Pi
 * [CAD_Swing_Arm](#CAD_Swing_Arm)
 * [CAD Skateboard](#CAD_Skateboard)
 * [CAD Duck](#CAD_Duck)
-* [CAD Lego Creation](#CAD_Leg_Creation)
 ---
 
 ## Python_Dice_Roller
@@ -204,38 +203,4 @@ Drawing:
 
 I made configurations and did a bunch of new things with them. I leanerd how to name parts, supress certain features, and color different parts through a configuration. I also learned how drawings worked (including BOMs) and variables.
 
-## CAD_Leg_Creation
 
-### Assignment Description
-
-The second part of the duck assignment was to make your own creation using the given configurations and any other you wanted to add.
-
-### Evidence 
-
-Original 2x4 Lego:
-
-![Screenshot 2021-11-04 2 56 51 PM](https://user-images.githubusercontent.com/60272021/140407109-f1b820af-1848-4fea-8470-1cfd57cba7a6.png)
-
-Configurations:
-
-![Screenshot 2021-11-04 2 57 29 PM](https://user-images.githubusercontent.com/60272021/140407230-08c28b6a-c0cb-4620-9be7-20aa7e3c8a74.png)
- 
-![Screenshot 2021-11-04 2 57 44 PM](https://user-images.githubusercontent.com/60272021/140407329-f78949af-d41b-47e3-8272-1d11aaaf7262.png)
- 
-![Screenshot 2021-11-04 2 57 56 PM](https://user-images.githubusercontent.com/60272021/140407831-917a632e-9dee-4a49-88e3-d4b7146610c7.png)
-
-After the assembly:
-
-STILL IN PROGRESS
-
-Drawing:
-
-STILL IN PROGRESS
-
-### Part Link
-
-[Helicopter](https://cvilleschools.onshape.com/documents/f773351e58492d5fbdd4d604/w/906060e22d4cb12b5eb50a1c/e/6777240b340f9c866c37fd71)
-
-### Reflection
-
-This took more time than I thought it would, but it wasn't difficult. I had to make a few more congifuations for this creation.
