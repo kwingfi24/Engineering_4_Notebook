@@ -209,7 +209,7 @@ I made configurations and did a bunch of new things with them. I leanerd how to 
 
 ### Assignment Description
 
-In this assignment we were given a picture to sketch into onshape, then we set it up for laser cutting. The tool we made has a wrench, straight-edge, triangle, and measurements. 
+In this assignment we were given a picture to sketch into onshape, then we set it up for laser cutting. The tool we made has a wrench, straight-edge, right triangle, and measurements in both inches and centimeters. 
 
 ### Evidence
 
