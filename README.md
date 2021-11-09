@@ -37,11 +37,11 @@ This assignment was relatively simple, but was challenging because I had not cod
 This assignment takes the user's two inputs and does math with those two numbers. It gives the sum, difference, product, quotient and modulo.
 ### Evidence 
 
-Vanilla version:
+#### Vanilla version:
 
 ![Screenshot 2021-09-16 10 36 04 AM](https://user-images.githubusercontent.com/60272021/133631864-7301960e-5c1c-4a23-a77b-3f91d2e2e49d.png)
 
-Spicy Version:
+#### Spicy Version:
 
 ![Screenshot 2021-09-30 10 25 28 AM](https://user-images.githubusercontent.com/60272021/135474434-30f46ecc-ae61-4d9b-96e7-c98415d5f9e2.png)
 
@@ -59,7 +59,7 @@ The purpose of this assignment was to create a program that can solve a quadrati
 
 ### Evidence 
 
-Vanilla version:
+#### Vanilla version:
 
 ![Screenshot 2021-09-21 9 17 19 AM](https://user-images.githubusercontent.com/60272021/134179410-305a5e28-3096-46b8-b26c-a06b8991aec9.png)
 
@@ -78,7 +78,7 @@ The purpose of this assignment was to create a program that will split the input
 
 ### Evidence 
 
-Vanilla version:
+#### Vanilla version:
 
 ![Screenshot 2021-09-21 10 10 17 AM](https://user-images.githubusercontent.com/60272021/134187046-ae9c7798-d38f-43cc-9161-e7274841c1f5.png)
 
@@ -96,11 +96,11 @@ Make a 2 player hangman game. This program will let player 2 play the game with 
 
 ### Evidence 
 
-Vanilla version:
+#### Vanilla version:
 
 ![Screenshot 2021-09-30 10 01 05 AM](https://user-images.githubusercontent.com/60272021/135469982-a46ab4a2-929e-46b2-9d14-89e24effa059.png)
 
-Spicy Version:
+#### Spicy Version:
 
 ![Screenshot 2021-09-30 10 01 45 AM](https://user-images.githubusercontent.com/60272021/135470187-a8cd2345-b630-444d-9d26-009caac72faf.png)
 
@@ -119,15 +119,16 @@ This assignment asked me to replicate a swing arm part from a set of drawings. T
 
 ### Evidence 
 
-Configuration #1
+#### Configuration #1
 
 ![Screenshot 2021-10-18 10 11 35 AM](https://user-images.githubusercontent.com/60272021/137748452-edd78be5-9293-4c41-979e-101bc1e99b41.png)
 
-Configuration #2
+#### Configuration #2
 
 ![Screenshot 2021-10-18 10 15 31 AM](https://user-images.githubusercontent.com/60272021/137748826-ffa06636-07cc-4092-b044-35526aef89f6.png)
 
 ### Part Link
+
 [Swing Arm Part](https://cvilleschools.onshape.com/documents/b20e3fd89d9f33d0597f58c1/w/6080ec1c7390420c270dd046/e/9519cc0f902e043ed5ae4153?renderMode=0&uiState=616d80202ba4eb00139a1495)
 
 
@@ -142,14 +143,14 @@ This assingment's purpose is to give us more practice in Onshape. This assignmen
 
 ### Evidence 
 
-In the part studio:
+#### In the part studio:
 
 ![Screenshot 2021-10-20 6 28 48 PM](https://user-images.githubusercontent.com/60272021/138181939-c294c0a1-108f-4974-8b9e-b914005158d7.png)
 
 ![Screenshot 2021-10-20 6 44 23 PM](https://user-images.githubusercontent.com/60272021/138182825-f020b2b2-9891-4d4f-823c-b51fd63e7927.png)
 
 
-After the assembly:
+#### After the assembly:
 
 ![Screenshot 2021-10-20 6 19 23 PM](https://user-images.githubusercontent.com/60272021/138180565-fabe0049-59a6-494c-bd44-0203eb372341.png)
 
@@ -172,7 +173,7 @@ In this assignment I found a lot of new tools, ways to do things, and practice w
 In this assignment, we made a single 2x4 lego and added a bunch f configurations to it to make endless possible configurations with different sizes, types, and colors. 
 ### Evidence 
 
-Original 2x4 Lego:
+#### Original 2x4 Lego:
 
 ![Screenshot 2021-11-04 2 56 51 PM](https://user-images.githubusercontent.com/60272021/140407109-f1b820af-1848-4fea-8470-1cfd57cba7a6.png)
 
@@ -184,11 +185,11 @@ Configurations:
  
 ![Screenshot 2021-11-04 2 57 56 PM](https://user-images.githubusercontent.com/60272021/140407831-917a632e-9dee-4a49-88e3-d4b7146610c7.png)
 
-After the assembly:
+#### After the assembly:
 
 ![Screenshot 2021-11-04 3 27 50 PM](https://user-images.githubusercontent.com/60272021/140407908-73c79a0c-79d3-40fc-949d-845ca621429d.png)
 
-Drawing:
+#### Drawing:
 
 ![Screenshot 2021-11-04 3 28 31 PM](https://user-images.githubusercontent.com/60272021/140407978-dec7e3f4-9d45-4dfa-b366-851f01e2e3bf.png)
 
@@ -213,11 +214,11 @@ In this assignment we were given a picture to sketch into onshape, then we set i
 
 ### Evidence
 
-Part:
+#### Part:
 
 ![Screenshot 2021-11-09 9 39 46 AM](https://user-images.githubusercontent.com/60272021/140944550-efbcc374-6b21-4049-8644-a25f3a33952b.png)
 
-Drawing:
+#### Drawing:
 
 ![Screenshot 2021-11-09 9 40 06 AM](https://user-images.githubusercontent.com/60272021/140944586-626e8a61-ce57-4dca-a2bc-3dbea6ffc28e.png)
 
