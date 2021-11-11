@@ -222,6 +222,9 @@ In this assignment we were given a picture to sketch into onshape, then we set i
 
 ![Screenshot 2021-11-09 9 40 06 AM](https://user-images.githubusercontent.com/60272021/140944586-626e8a61-ce57-4dca-a2bc-3dbea6ffc28e.png)
 
+##### After Cut:
+
+Picture needed
 
 ### Part Link
 
