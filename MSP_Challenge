@@ -1,3 +1,5 @@
+#Corrected Version
+
 #Man-Shaped Pinata (MSP)
 #Written by Kaitlyn Wingfield
 #9.21.2021
@@ -55,7 +57,7 @@ def displayBoard(hang, missedLetters, correctLetters, secretWord):
     print('Missed Letters:', end=' ')
     for letter in missedLetters:
         print(letter, end=' ')
-    print("\n" * 50)
+    print("\n")
 
     blanks = '_' * len(secretWord)
 
@@ -72,7 +74,6 @@ def getGuess(alreadyGuessed):
     while True:
         guess = input('Guess a letter: ')
         guess = guess.lower()
-        print("\n" * 50)
         if len(guess) != 1:
             print('Please enter one letter.')
         elif guess in alreadyGuessed:
@@ -93,7 +94,7 @@ missedLetters = ''
 correctLetters = ''
 secretWord = input()
 gameIsDone = False
-
+print ("\n" * 50)
 
 while True:
     displayBoard(hang, missedLetters, correctLetters, secretWord)
