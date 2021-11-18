@@ -57,7 +57,7 @@ def displayBoard(hang, missedLetters, correctLetters, secretWord):
     print('Missed Letters:', end=' ')
     for letter in missedLetters:
         print(letter, end=' ')
-    print("\n")
+    print(" ")
 
     blanks = '_' * len(secretWord)
 
@@ -91,6 +91,7 @@ def playAgain():
 print ("Player 1, what is your word?")
 
 missedLetters = ''
+print (" ")
 correctLetters = ''
 secretWord = input()
 gameIsDone = False
