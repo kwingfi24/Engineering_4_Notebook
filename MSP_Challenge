@@ -6,42 +6,42 @@
 import random
 #The hangman graphic
 hang = ["""
-|----┐
+|----|
 
 
 
           """, """
-|----┐
+|----|
      0
 
 
           ""","""
-|----┐
+|----|
      0
      |
 
           ""","""
-|----┐
+|----|
      0
     \|
 
           ""","""
-|----┐
+|----|
      0
     \|/
 
           ""","""
-|----┐
+|----|
      0
     \|/
      |
           ""","""
-|----┐
+|----|
      0
     \|/
      |
     /     ""","""
-|----┐
+|----|
      0
     \|/
      |
@@ -55,7 +55,6 @@ def displayBoard(hang, missedLetters, correctLetters, secretWord):
     print('Missed Letters:', end=' ')
     for letter in missedLetters:
         print(letter, end=' ')
-    print("\n" * 50)
 
     blanks = '_' * len(secretWord)
 
