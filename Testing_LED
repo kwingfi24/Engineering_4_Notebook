@@ -1,10 +1,15 @@
+#GPIO Pin Introduction
+#Written by Kaitlyn Wingfield
+#11.29.21
+
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM) #setting the numbering scheme as the BCM scheme
 import time
 GPIO.setwarnings(False)
 GPIO.setup(21,GPIO.OUT)
-print ("LED on")
+GPIO.setup(26,GPIO.OUT)
 GPIO.output(21,GPIO.HIGH)
+print ("LED on")
 time.sleep(1)
-print ("LED off")
 GPIO.output(21,GPIO.LOW)
+print ("LED off")
