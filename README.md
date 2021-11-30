@@ -238,8 +238,18 @@ This assignment showed me that I don't need step by step instruction, I know eno
 
 ## GPIO_Pin_Introduction
 
-###Assignmnt Description
+### Assignmnt Description
 
 In this assignment I was introduced to GPIO pins. After tinkering and messing around with it for a bit I wired up 2 LEDs (Red and Yellow) to blink at different times until the command CTRL + C is used. By blinking at different times I mean when red is on, yellow is off and when yellow is on, red is off.
 
+### Evidence
 
+Upload vid
+
+### Wiring
+
+Upload pic
+
+### Reflection
+
+The example codes given by Mr.Miller would not work for some reason after many attempts. I finally researched and found some commands that worked (only needed a bit more typing than perviously needed). I used [this website](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins) for help. After figuring out how to get the light to turn on, it was pretty simple to get them to alternate repeatedly with just using a while loop.
