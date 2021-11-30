@@ -248,7 +248,7 @@ https://user-images.githubusercontent.com/60272021/144076450-132a1f73-8f57-4afc-
 
 ### Wiring
 
-Upload pic
+![Screenshot 2021-11-30 10 31 27 AM](https://user-images.githubusercontent.com/60272021/144077219-afcc4160-82d8-46e5-802d-5cf3abafe1d4.png)
 
 ### Reflection
 
