@@ -244,7 +244,7 @@ In this assignment I was introduced to GPIO pins. After tinkering and messing ar
 
 ### Evidence
 
-Upload vid
+https://user-images.githubusercontent.com/60272021/144076450-132a1f73-8f57-4afc-9a91-3e5d34861bd7.mp4
 
 ### Wiring
 
