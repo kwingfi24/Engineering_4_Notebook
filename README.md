@@ -239,3 +239,7 @@ This assignment showed me that I don't need step by step instruction, I know eno
 ## GPIO_Pin_Introduction
 
 ###Assignmnt Description
+
+In this assignment I was introduced to GPIO pins. After tinkering and messing around with it for a bit I wired up 2 LEDs (Red and Yellow) to blink at different times until the command CTRL + C is used. By blinking at different times I mean when red is on, yellow is off and when yellow is on, red is off.
+
+
