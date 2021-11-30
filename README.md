@@ -207,7 +207,7 @@ In this assignment, we made a single 2x4 lego and added a bunch f configurations
 I made configurations and did a bunch of new things with them. I leanerd how to name parts, supress certain features, and color different parts through a configuration. I also learned how drawings worked (including BOMs) and variables.
 
 
-## Multi-Tool
+## Multi_Tool
 
 ### Assignment Description
 
