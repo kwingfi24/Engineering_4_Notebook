@@ -11,6 +11,7 @@ Engineering 4 - Raspberry Pi, Python, Onshape
 * [CAD Duck](#CAD_Duck)
 * [Multi-Tool](#Multi_Tool)
 * [RPi GPIO Pin Intruduction](#GPIO_Pin_Introduction)
+* [RPi Safe Shutdown Button](#RPI_Safe_Shutdown_Button)
 ---
 
 ## Python_Dice_Roller
@@ -253,3 +254,21 @@ https://user-images.githubusercontent.com/60272021/144076450-132a1f73-8f57-4afc-
 ### Reflection
 
 It was a bit difficult to understand the different numberings, but I eventually understood the BCM system. I'd like to try and review the other systems in order to understand it all. The example codes given by Mr.Miller would not work for some reason after many attempts. I finally researched and found some commands that worked (only needed a bit more typing than perviously needed). I used [this website](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins) for help. This reminded me a lot of arduino because of the way I have the outputs and pin numbers set. It was nice to see that some of the arduino I learned can still be used even in Pi. After figuring out how to get the light to turn on, it was pretty simple to get them to alternate repeatedly with just using a while loop.
+
+
+## RPI_Safe_Shutdown_Button
+
+### Assignment Description
+
+In this assignment I copied over a script (after going through it to understand each part and learn how it was put together). This script reboots the pi when pushed and shuts the pi down when the button is pushed for 3 seconds. This is also running in the background and can be used at any time.
+
+### Evidence
+
+upload vid
+
+### Wiring
+
+upload pic
+
+### Reflection
+
