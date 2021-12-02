@@ -50,8 +50,7 @@ while True:
         #print('GPIO state is = ', GPIO.input(reset_shutdown_pin))
         counter = 0
         while GPIO.input(reset_shutdown_pin) == False:
-            # For troubleshooting, uncomment this line to view the counter. If it 
-reaches a value above 4, we will restart.
+            # For troubleshooting, uncomment this line to view the counter. If it reaches a value above 4, we will restart.
             #print(counter)
             counter += 1
             time.sleep(0.5)
