@@ -268,7 +268,7 @@ upload vid
 
 ### Wiring
 
-upload pic
+![Screenshot 2021-12-02 10 16 57 AM](https://user-images.githubusercontent.com/60272021/144450104-e15ddcb4-b492-4bf8-a695-5d9b6e19768e.png)
 
 ### Reflection
 
