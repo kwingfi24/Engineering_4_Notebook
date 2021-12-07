@@ -1,0 +1,7 @@
+# GPIO Pin I2C 
+# Written by Kaitlyn Wingfield
+# 12.7.21
+# Displaying X, Y, and Z accelerations (measured by an accelerometer) are displayed on a OLED display
+
+
+
