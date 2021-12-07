@@ -5,3 +5,42 @@
 
 
 
+import time
+
+import Adafruit_GPIO.SPI as SPI
+import Adafruit_SSD1306
+import Adafruit_LSM303
+lsm303 = Adafruit_LSM303.LSM303()
+
+
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
+
+
+# Raspberry Pi pin configuration:
+RST = 24
+# Note the following are only used with SPI:
+DC = 23
+SPI_PORT = 0
+SPI_DEVICE = 0
+
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
+
+# Initialize library.
+disp.begin()
+
+# Clear display.
+disp.clear()
+disp.display()
+
+print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
+# Writing three lines of text.
+while True:
+  draw.text((x, top),    'X: {}',  font=font, fill=255)
+  draw.text((x, top+20), 'Y: {}', font=font, fill=255)
+  draw.text((x, top+40), 'Z: {}', font=font, fill=255)
+
+# Display image.
+disp.image(image)
+disp.display()
