@@ -34,6 +34,12 @@ disp.begin()
 disp.clear()
 disp.display()
 
+width = disp.width
+height = disp.height
+image = Image.new('1', (width, height))
+
+font = ImageFont.load_default()
+
 print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
 # Writing three lines of text.
 while True:
