@@ -41,6 +41,16 @@ image = Image.new('1', (width, height))
 draw = ImageDraw.Draw(image)
 font = ImageFont.load_default()
 
+
+# First define some constants to allow easy resizing of shapes.
+padding = 2
+shape_width = 20
+top = padding
+bottom = height-padding
+
+# Move left to right keeping track of the current x position for drawing shapes.
+x = padding
+
 print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
 # Writing three lines of text.
 while True:
