@@ -74,4 +74,5 @@ while True:
     # Display image.
     disp.image(image)
     disp.display()
-
+    #clearing screen
+    draw.rectangle((0,0,width,height), outline=0, fill=0)
