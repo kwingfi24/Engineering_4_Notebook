@@ -66,8 +66,9 @@ while True:
           
     # Write two lines of text.
     draw.text((x, top),    f'X: {accel_x}',  font=font, fill=255)
-    draw.text((x, top+20), '{accel_y}', font=font, fill=255)
-    draw.text((x, top+40), '{accel_z}', font=font, fill=255)
+    draw.text((x, top+20), f'Y: {accel_y}', font=font, fill=255)
+    draw.text((x, top+40), f'Z: {accel_z}', font=font, fill=255)
+    draw.text((x, top+60), 'Acceleration Readings', font=font, fill=255)
     # Wait half a second and repeat.
     time.sleep(0.5)
     # Display image.
