@@ -64,7 +64,7 @@ while True:
     print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
           accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
           
-    # Write two lines of text.
+    # Write five lines of text(including both the heading and readings
     draw.text((x, top), 'Acceleration', font=font, fill=255)
     draw.text((x, top+10), 'Readings:', font=font, fill=255)
     draw.text((x, top+20),    f'X: {accel_x}',  font=font, fill=255)
