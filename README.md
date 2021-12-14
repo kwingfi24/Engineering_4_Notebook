@@ -12,6 +12,7 @@ Engineering 4 - Raspberry Pi, Python, Onshape
 * [Multi-Tool](#Multi_Tool)
 * [RPi GPIO Pin Intruduction](#GPIO_Pin_Introduction)
 * [RPi Safe Shutdown Button](#RPI_Safe_Shutdown_Button)
+* [GPIO_I2C](#GPIO_I2C)
 ---
 
 ## Python_Dice_Roller
@@ -272,3 +273,21 @@ upload vid
 
 ### Reflection
 
+
+
+## GPIO_I2C
+
+### Assignment Description
+
+In this assignment I used two different scripts in order to print different accelerations on a screen that updated ever half second. 
+
+### Evidence
+
+upload vid
+
+### Wiring
+
+
+
+### Reflection
+This was a pretty simple assignment, but I would have completed it sooner if I had simply thought more about what I was being asked and how to do it. By this I mean that I originally just had numbers on the screen that were slowly stacking, creating a white box. This was a simple fix with two simple lines of code that were present in the original codes. I then had it working, but it wasn't organized because the only thing there was the numbers. Knowing this, I went back and added a heading and labels for each reading. I'd love to experiment with different fonts and sizes of text, but I'll have to come back to that later.
