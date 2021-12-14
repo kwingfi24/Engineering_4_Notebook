@@ -287,7 +287,7 @@ upload vid
 
 ### Wiring
 
-
+![IMG-0375](https://user-images.githubusercontent.com/60272021/146018771-4f2f76d6-2e5f-4054-8c91-a09e9dbcfa5b.jpg)
 
 ### Reflection
 This was a pretty simple assignment, but I would have completed it sooner if I had simply thought more about what I was being asked and how to do it. By this I mean that I originally just had numbers on the screen that were slowly stacking, creating a white box. This was a simple fix with two simple lines of code that were present in the original codes. I then had it working, but it wasn't organized because the only thing there was the numbers. Knowing this, I went back and added a heading and labels for each reading. I'd love to experiment with different fonts and sizes of text, but I'll have to come back to that later.
