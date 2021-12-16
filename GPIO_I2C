@@ -15,8 +15,13 @@ from PIL import ImageFont
 lsm303 = Adafruit_LSM303.LSM303()
 
 scale = int (9.81)
-
-
+def quotient(accel_x, scale): 
+    return (accel_x / scale)
+def quotient(accel_y, scale): 
+    return (accel_y / scale)
+def quotient(accel_z, scale): 
+    return (accel_z / scale)
+    
 # Raspberry Pi pin configuration:
 RST = 24
 # Note the following are only used with SPI:
@@ -62,15 +67,15 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
-          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
+#    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
+#          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
           
     # Write five lines of text(including both the heading and readings
     draw.text((x, top), 'Acceleration', font=font, fill=255)
     draw.text((x, top+10), 'Readings:', font=font, fill=255)
-    draw.text((x, top+20),    f'X: {accel_x}',  font=font, fill=255)
-    draw.text((x, top+30), f'Y: {accel_y}', font=font, fill=255)
-    draw.text((x, top+40), f'Z: {accel_z}', font=font, fill=255)
+    draw.text((x, top+20), f'X: {(round (quotient(accel_x, scale), 3))}',  font=font, fill=255)
+    draw.text((x, top+30), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
+    draw.text((x, top+40), f'Z: {(round (quotient(accel_z, scale), 3))}', font=font, fill=255)
     # Wait half a second and repeat.
     time.sleep(0.5)
     # Display image.
