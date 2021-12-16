@@ -53,9 +53,8 @@ x = padding
 # Load default font.
 font = ImageFont.load_default()
 
-#line below need to move down into the while loop
-print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
 while True:
+    print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
     # Grab the X, Y, Z components from the reading and print them out.
