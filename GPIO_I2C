@@ -15,12 +15,14 @@ from PIL import ImageFont
 lsm303 = Adafruit_LSM303.LSM303()
 
 scale = int (9.81)
+scale1 = int (100)
+
 def quotient(accel_x, scale): 
     return (accel_x / scale)
 def quotient(accel_y, scale): 
     return (accel_y / scale)
-def quotient(accel_z, scale): 
-    return (accel_z / scale)
+def quotient(accel_z, scale1): 
+    return (accel_z / scale1)
     
 # Raspberry Pi pin configuration:
 RST = 24
@@ -75,7 +77,7 @@ while True:
     draw.text((x, top+10), 'Readings:', font=font, fill=255)
     draw.text((x, top+20), f'X: {(round (quotient(accel_x, scale), 3))}',  font=font, fill=255)
     draw.text((x, top+30), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
-    draw.text((x, top+40), f'Z: {(round (quotient(accel_z, scale), 3))}', font=font, fill=255)
+    draw.text((x, top+40), f'Z: {(round (quotient(accel_z, scale1), 3))}', font=font, fill=255)
     # Wait half a second and repeat.
     time.sleep(0.5)
     # Display image.
