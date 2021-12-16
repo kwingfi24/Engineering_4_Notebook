@@ -16,14 +16,6 @@ lsm303 = Adafruit_LSM303.LSM303()
 
 scale = int (9.81)
 
-def accelX(accel_x, scale):
-    return (accel_x / scale)
-    
-def accelY(accel_y, scale):
-    return (accel_y / scale)
-    
-def accelZ(accel_z, scale):
-    return (accel_z / scale)
 
 # Raspberry Pi pin configuration:
 RST = 24
@@ -64,6 +56,15 @@ x = padding
 font = ImageFont.load_default()
 
 while True:
+    def accelX(accel_x, scale):
+        return (accel_x / scale)
+    
+    def accelY(accel_y, scale):
+        return (accel_y / scale)
+    
+    def accelZ(accel_z, scale):
+        return (accel_z / scale)
+    
     print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
