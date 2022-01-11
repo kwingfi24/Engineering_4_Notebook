@@ -23,6 +23,13 @@ def quotient(accel_y, scale):
     return (accel_y / scale)
 def quotient(accel_z, scale1): 
     return (accel_z / scale1)
+
+scale2 = int (3)
+
+def distance(quotient(accel_x, scale), scale2): 
+    return (quotient(accel_x, scale) / scale2)
+def distance(quotient(accel_y, scale), scale2): 
+    return (quotient(accel_y, scale) / scale2)
     
 # Raspberry Pi pin configuration:
 RST = 24
@@ -59,9 +66,9 @@ bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
 #change in x values
-a = 
+a = distance(quotient(accel_x, scale), scale2)
 #change in y values
-b = 
+b = distance(quotient(accel_y, scale), scale2)
 # Load default font.
 font = ImageFont.load_default()
 
