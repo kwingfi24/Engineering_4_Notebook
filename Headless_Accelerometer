@@ -23,15 +23,6 @@ def quotient(accel_y, scale):
     return (accel_y / scale)
 def quotient(accel_z, scale1): 
     return (accel_z / scale1)
-x2 = quotient(accel_x, scale)
-y2 = quotient(accel_y, scale)
-
-
-scale2 = int (3)
-def distance(x2, scale2): 
-    return (x2 / scale2)
-def distance(y2, scale2): 
-    return (y2 / scale2)
     
 # Raspberry Pi pin configuration:
 RST = 24
@@ -67,10 +58,12 @@ top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
+
 #change in x values
 a = distance(quotient(accel_x, scale), scale2)
 #change in y values
 b = distance(quotient(accel_y, scale), scale2)
+
 # Load default font.
 font = ImageFont.load_default()
 
@@ -82,7 +75,7 @@ while True:
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
 
-    # Write five lines of text(including both the heading and readings
+    # Write 2 readings on one line and draw the shape
     draw.text((x, bottom-10), f'X: {(round (quotient(accel_x, scale), 1))}',  font=font, fill=255)
     draw.text((x+50, bottom-10), f'Y: {(round (quotient(accel_y, scale), 1))}', font=font, fill=255)
     draw.ellipse((x+50+a, top+25+b, x+shape_width+50+a, bottom-25+b), outline=225, fill=0)
