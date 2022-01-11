@@ -52,17 +52,20 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 # First define some constants to allow easy resizing of shapes.
-padding = 2
-shape_width = 20
+padding = 5
+shape_width = 5
 top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
-
+#change in x values
+a = 
+#change in y values
+b = 
 # Load default font.
 font = ImageFont.load_default()
 
-print('Printing accelerometer X, Y, Z axis values, press CTRL + C to stop.')
+print('Program starting, press CTRL + C to stop.')
 
 while True:    
     accel, mag = lsm303.read()
@@ -71,11 +74,9 @@ while True:
     mag_x, mag_y, mag_z = mag
 
     # Write five lines of text(including both the heading and readings
-    draw.text((x, top), 'Acceleration', font=font, fill=255)
-    draw.text((x, top+10), 'Readings:', font=font, fill=255)
-    draw.text((x, top+20), f'X: {(round (quotient(accel_x, scale), 3))}',  font=font, fill=255)
-    draw.text((x, top+30), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
-    draw.text((x, top+40), f'Z: {(round (quotient(accel_z, scale1), 3))}', font=font, fill=255)
+    draw.text((x, bottom-10), f'X: {(round (quotient(accel_x, scale), 1))}',  font=font, fill=255)
+    draw.text((x+50, bottom-10), f'Y: {(round (quotient(accel_y, scale), 1))}', font=font, fill=255)
+    draw.ellipse((x+50+a, top+25+b, x+shape_width+50+a, bottom-25+b), outline=225, fill=0)
     # Wait half a second and repeat.
     time.sleep(0.5)
     # Display image.
