@@ -59,11 +59,6 @@ bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
 
-#change in x values
-a = quotient(accel_x, scale)
-#change in y values
-b = quotient(accel_y, scale)
-
 # Load default font.
 font = ImageFont.load_default()
 
@@ -74,7 +69,7 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-
+   
     # Write 2 readings on one line and draw the shape
     draw.text((x, bottom-10), f'X: {(round (quotient(accel_x, scale), 1))}',  font=font, fill=255)
     draw.text((x+50, bottom-10), f'Y: {(round (quotient(accel_y, scale), 1))}', font=font, fill=255)
@@ -84,5 +79,11 @@ while True:
     # Display image.
     disp.image(image)
     disp.display()
-    #clearing screen
+ 
+    # clearing screen
     draw.rectangle((0,0,width,height), outline=0, fill=0)
+
+    # change in x values
+    a = quotient(accel_x, scale)
+    # change in y values
+    b = quotient(accel_y, scale)
