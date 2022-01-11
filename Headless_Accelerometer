@@ -60,9 +60,9 @@ bottom = height-padding
 x = padding
 
 #change in x values
-a = distance(quotient(accel_x, scale), scale2)
+a = quotient(accel_x, scale)
 #change in y values
-b = distance(quotient(accel_y, scale), scale2)
+b = quotient(accel_y, scale)
 
 # Load default font.
 font = ImageFont.load_default()
