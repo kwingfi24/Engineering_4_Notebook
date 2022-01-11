@@ -23,13 +23,15 @@ def quotient(accel_y, scale):
     return (accel_y / scale)
 def quotient(accel_z, scale1): 
     return (accel_z / scale1)
+x2 = quotient(accel_x, scale)
+y2 = quotient(accel_y, scale)
+
 
 scale2 = int (3)
-
-def distance(quotient(accel_x, scale), scale2): 
-    return (quotient(accel_x, scale) / scale2)
-def distance(quotient(accel_y, scale), scale2): 
-    return (quotient(accel_y, scale) / scale2)
+def distance(x2, scale2): 
+    return (x2 / scale2)
+def distance(y2, scale2): 
+    return (y2 / scale2)
     
 # Raspberry Pi pin configuration:
 RST = 24
