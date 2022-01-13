@@ -25,9 +25,8 @@ def quotient(accel_z, scale1):
     return (accel_z / scale1)
     
 def direction(x):
-    return (quotient(accel_x, scale) * 2)
-def direction(y):
-    return (quotient(accel_y, scale) * 2)    
+    return (quotient(accel_x, scale) * 1.5)
+
 
 # Raspberry Pi pin configuration:
 RST = 24
@@ -77,13 +76,9 @@ while True:
 
     # change in x values
     a = direction(x)
-    # change in y values
-  #  b = direction(y)   
     
-    # Write 2 readings on one line and draw the shape
-#note to me: x is working fine, y is a bit iffy
+    # Write x reading on one line and draw the shape
     draw.text((x, bottom-10), f'X: {(round (quotient(accel_x, scale), 3))}',  font=font, fill=255)
-    draw.text((x+70, bottom-10), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
     draw.ellipse((x+50+a, top+25, x+shape_width+50+a, bottom-25), outline=225, fill=0)
     # Wait half a second and repeat.
     time.sleep(0.5)
