@@ -78,7 +78,7 @@ while True:
     # change in x values
     a = direction(x)
     # change in y values
-    b = direction(y)   
+  #  b = direction(y)   
     
     # Write 2 readings on one line and draw the shape
 #note to me: x is working fine, y is a bit iffy
