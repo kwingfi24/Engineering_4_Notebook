@@ -24,6 +24,11 @@ def quotient(accel_y, scale):
 def quotient(accel_z, scale1): 
     return (accel_z / scale1)
     
+def direction(x):
+    return (quotient(accel_x, scale) * 2)
+def direction(y):
+    return (quotient(accel_y, scale) * 2)    
+
 # Raspberry Pi pin configuration:
 RST = 24
 # Note the following are only used with SPI:
@@ -71,9 +76,9 @@ while True:
     mag_x, mag_y, mag_z = mag
 
     # change in x values
-    a = quotient(accel_x, scale)
+    a = direction(x)
     # change in y values
-    b = quotient(accel_y, scale)   
+    b = direction(y)   
     
     # Write 2 readings on one line and draw the shape
 #note to me: x is working fine, y is a bit iffy
