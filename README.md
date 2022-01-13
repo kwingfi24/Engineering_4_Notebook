@@ -282,7 +282,7 @@ In this assignment I used two different scripts in order to print different acce
 
 ### Evidence
 
-upload vid
+https://user-images.githubusercontent.com/60272021/149352193-755736e3-b96e-4cd7-a917-2ea8fe8abd01.mp4
 
 ### Wiring
 
