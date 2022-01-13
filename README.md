@@ -1,18 +1,19 @@
 # Engineering_4_Notebook
 Engineering 4 - Raspberry Pi, Python, Onshape
 ## Table of Contents
-* [Python_Dice_Roller](#PythonDiceRoller)
-* [Python_Calculator](#Python_Calculator)
-* [Quadratic_Solver](#Quadratic_Solver)
-* [Strings_and_loops](#Strings_and_loops)
-* [MSP_Challenge](#MSP_Challenge)
-* [CAD_Swing_Arm](#CAD_Swing_Arm)
+* [Python Dice Roller](#PythonDiceRoller)
+* [Python Calculator](#Python_Calculator)
+* [Quadratic Solver](#Quadratic_Solver)
+* [Strings and loops](#Strings_and_loops)
+* [MSP Challenge](#MSP_Challenge)
+* [CAD Swing Arm](#CAD_Swing_Arm)
 * [CAD Skateboard](#CAD_Skateboard)
 * [CAD Duck](#CAD_Duck)
 * [Multi-Tool](#Multi_Tool)
 * [RPi GPIO Pin Intruduction](#GPIO_Pin_Introduction)
 * [RPi Safe Shutdown Button](#RPI_Safe_Shutdown_Button)
-* [GPIO_I2C](#GPIO_I2C)
+* [GPIO I2C](#GPIO_I2C)
+* [Headless Accelerometer](#Headless_Accelerometer)
 ---
 
 ## Python_Dice_Roller
