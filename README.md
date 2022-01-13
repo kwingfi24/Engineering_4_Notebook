@@ -303,7 +303,7 @@ upload vid
 
 ### Wiring 
 
-![IMG-0375](https://user-images.githubusercontent.com/60272021/146018771-4f2f76d6-2e5f-4054-8c91-a09e9dbcfa5b.jpg)
+![IMG-0453](https://user-images.githubusercontent.com/60272021/149352783-08c4f322-c145-41e0-888f-970b18e948f7.jpg)
 
 ### Reflection
 I thought I had figured this assignment out in a bit under two hours; however, I noticed some strange things while I was playing around with it. I revisited my code and made a few changes. I originally was trying to show both the x and y axis, but in the final I removed the y because it was acting up. I hope to revisit this assignment, but due to time I have to leave it like this for now.
