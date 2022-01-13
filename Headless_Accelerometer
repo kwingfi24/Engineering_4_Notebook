@@ -76,9 +76,10 @@ while True:
     b = quotient(accel_y, scale)   
     
     # Write 2 readings on one line and draw the shape
+#note to me: x is working fine, y is a bit iffy
     draw.text((x, bottom-10), f'X: {(round (quotient(accel_x, scale), 3))}',  font=font, fill=255)
-    draw.text((x+60, bottom-10), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
-    draw.ellipse((x+50+a, top+25+b, x+shape_width+50+a, bottom-25+b), outline=225, fill=0)
+    draw.text((x+70, bottom-10), f'Y: {(round (quotient(accel_y, scale), 3))}', font=font, fill=255)
+    draw.ellipse((x+50+a, top+25, x+shape_width+50+a, bottom-25), outline=225, fill=0)
     # Wait half a second and repeat.
     time.sleep(0.5)
     # Display image.
