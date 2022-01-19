@@ -295,7 +295,7 @@ This was a pretty simple assignment, but I would have completed it sooner if I h
 ## Headless_Accelerometer
 
 ### Assignment Description
-In this assigment we had to pick an axis (I chose to do x) and display it graphically using a dot that moves around.
+In this assigment we had to pick an axis (I chose to do x) and display it graphically using a dot that moves around. This was done with the use of code from previous assignments as a base.
 
 ### Evidence
 
