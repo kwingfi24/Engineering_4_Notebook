@@ -4,16 +4,20 @@
 
 import time
 import picamera
+
+#effects that are being used 
 effects = ['none', 'sketch', 'watercolor', 'saturation', 'negative']
 
 with picamera.PiCamera() as camera:
     print ('running')
+    #setting up the camera
     camera.resolution = (1024, 768)
     camera.start_preview()
     # Camera warm-up time
     time.sleep(2)
     for s in effects:
+      #adding the effect to the name for easier locating later
       print("Effect: " + s)
       camera.image_effect = s
-      camera.capture('picture' + s + '.jpg')
+      camera.capture('picture_' + s + '.jpg')
 print ('done')
