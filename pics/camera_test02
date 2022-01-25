@@ -12,7 +12,7 @@ with picamera.PiCamera() as camera:
     camera.start_preview()
     # Camera warm-up time
     time.sleep(2)
-      for s in effects:
+    for s in effects:
       print("Effect: " + s)
       camera.image_effect = s
       camera.capture('picture' + s + '.jpg')
