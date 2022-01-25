@@ -14,6 +14,7 @@ Engineering 4 - Raspberry Pi, Python, Onshape
 * [RPi Safe Shutdown Button](#RPI_Safe_Shutdown_Button)
 * [GPIO I2C](#GPIO_I2C)
 * [Headless Accelerometer](#Headless_Accelerometer)
+* [Pi Camera](#Pi_Camera)
 ---
 
 ## Python_Dice_Roller
@@ -307,3 +308,11 @@ upload vid
 
 ### Reflection
 I thought I had figured this assignment out in a bit under two hours; however, I noticed some strange things while I was playing around with it. I revisited my code and made a few changes. I originally was trying to show both the x and y axis, but in the final I removed the y because it was acting up. I hope to revisit this assignment, but due to time I have to leave it like this for now.
+
+## Pi_Camera
+### Assignment Description
+### Evidence
+
+### Wiring
+
+### Reflection
