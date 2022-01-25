@@ -2,17 +2,29 @@
 # Written by Kaitlyn Wingfield
 # 1.19.22
 
-import time
-import picamera
+# import time
+# import picamera
+# effects = 
 
-with picamera.PiCamera() as camera:
-    print ('running')
-    camera.resolution = (1024, 768)
-    camera.start_preview()
+# with picamera.PiCamera() as camera:
+#    print ('running')
+ #   camera.resolution = (1024, 768)
+  #  camera.start_preview()
     # Camera warm-up time
-    time.sleep(2)
-    camera.capture('single.jpg')
+   # time.sleep(2)
+   3 camera.capture('none.jpg')
 
-
+import picamera
+from time import sleep
+effects = ['none', 'negative', 'sketch', 'denoise', 'emboss', 'oilpaint', 'hatch', 'gpen', 'pastel', 'watercolor', 'film', 'blur', 'saturation']
+camera = picamera.PiCamera()
+camera.resolution = (1280, 720)
+camera.start_preview()
+sleep(2)
+for s in effects:
+    print("Effect: " + s)
+    camera.image_effect = s
+    camera.capture('snapshot_' + s + '.jpg')
+camera.stop_preview()
 
 print ('done')
