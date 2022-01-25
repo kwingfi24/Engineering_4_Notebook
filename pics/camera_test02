@@ -4,7 +4,7 @@
 
 import time
 import picamera
-effects = ['none', ]
+effects = ['none', 'sketch', 'watercolor', 'saturation', 'negative']
 
 with picamera.PiCamera() as camera:
     print ('running')
@@ -16,7 +16,4 @@ with picamera.PiCamera() as camera:
       print("Effect: " + s)
       camera.image_effect = s
       camera.capture('picture' + s + '.jpg')
-
-effects = ['none', 'negative', 'sketch', 'denoise', 'emboss', 'oilpaint', 'hatch', 'gpen', 'pastel', 'watercolor', 'film', 'blur', 'saturation']
-
 print ('done')
