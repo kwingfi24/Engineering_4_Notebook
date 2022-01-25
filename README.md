@@ -311,8 +311,19 @@ I thought I had figured this assignment out in a bit under two hours; however, I
 
 ## Pi_Camera
 ### Assignment Description
+In this assignment, we had to use a pi camera to take 5 pictures. These 5 pictures each needed to have a different effect. I went the effects that looked pretty cool including sketch, waterolor, negative, and saturation. 
 ### Evidence
-
+#### No Effect:
+![picture_none](https://user-images.githubusercontent.com/60272021/151002262-7f357e3f-ac34-478f-bc68-234c709bd28c.jpg)
+#### Sketch Effect:
+![picture_sketch](https://user-images.githubusercontent.com/60272021/151002121-669fd50f-603d-474e-8d89-c734d871cafd.jpg)
+#### Negative Effect:
+![picture_negative](https://user-images.githubusercontent.com/60272021/151002308-7cffde8d-8083-4f4f-817d-928670b91014.jpg)
+#### Watercolor Effect:
+![picture_watercolor](https://user-images.githubusercontent.com/60272021/151002406-25fa83c9-3c65-44d9-a03c-8ad1f161759f.jpg)
+#### Saturation Effect:
+![picture_saturation](https://user-images.githubusercontent.com/60272021/151002491-38979e5f-d75c-4f47-be12-b77f2a31a44f.jpg)
 ### Wiring
 
 ### Reflection
+There are a ton of the different effects. I was a bit worried about locating and detifying the photos at a later time without having to look at all of the individually. For this I used a for loop and add the name of the effect tagged to the back of the name. Overall, this assignment was relatively siple and fun to experiment with for the first time. I'd like to try in the future and see if you can possibly layer the effects. For example take a picture that has the negative effect then use the watercolor or sketch effect on top. If that is the case would negaive over top of negative return the photo to normal or mess with it in a strange way.
