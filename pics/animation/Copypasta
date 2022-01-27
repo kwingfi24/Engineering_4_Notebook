@@ -5,13 +5,16 @@ from gpiozero import Button
 button = Button(17)
 camera = PiCamera()
 
-camera.start_preview()
+# camera.start_preview() - doesn't work on chromebook
 frame = 1
+
+# while loop to make it repeat until stopped by a keyboard entry
 while True:
     try:
         button.wait_for_press()
-        camera.capture('Animation_pic/frame%03d.jpg' % frame)
+        camera.capture('Animation_pic/frame%03d.jpg' % frame) #adding numbers to pictures
         frame += 1
+    # stopping the program with CTRL+C
     except KeyboardInterrupt:
         camera.stop_preview()
         break
