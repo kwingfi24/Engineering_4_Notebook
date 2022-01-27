@@ -335,5 +335,8 @@ In this assignment, we made a stop motion video using multiple pictures taken fr
 ### Evidence
 
 ### Wiring
-
+![picamera-gpio-setup](https://user-images.githubusercontent.com/60272021/151381768-18b6f043-3c3a-45b6-9809-8df1fe854a04.png)
+credit to : https://projects.raspberrypi.org/en/projects/push-button-stop-motion/4
+![Screenshot 2022-01-25 9 54 59 AM](https://user-images.githubusercontent.com/60272021/151003680-06f083db-597d-435c-97ad-2d2b16db28e9.png)
 ### Reflection
+This assignment was more fun than challenging since we already set up the camera. I did learn how to add a number to the name of photo with adding the frame%03d.jpg' % frame and some other simple codes. Adding a button that takes a picture instead of having to use commands was really nice too. Making the program run repeatedly until a keyboard command was used was also very helpful. This all allowed the pi camera to stay relatively still making a nice stop motion. The video rendering was also within pi which I found nice and convenient. I highly recommend this project. It's relatively easy and it allows you to have fun and be creative while adding a tiny bit of coding.
