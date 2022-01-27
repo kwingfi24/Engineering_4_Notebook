@@ -15,6 +15,7 @@ Engineering 4 - Raspberry Pi, Python, Onshape
 * [GPIO I2C](#GPIO_I2C)
 * [Headless Accelerometer](#Headless_Accelerometer)
 * [Pi Camera](#Pi_Camera)
+* [Copypasta](#Copypasta)
 ---
 
 ## Python_Dice_Roller
@@ -327,3 +328,12 @@ In this assignment, we had to use a pi camera to take 5 pictures. These 5 pictur
 ![Screenshot 2022-01-25 9 54 59 AM](https://user-images.githubusercontent.com/60272021/151003680-06f083db-597d-435c-97ad-2d2b16db28e9.png)
 ### Reflection
 There are a ton of the different effects. I was a bit worried about locating and detifying the photos at a later time without having to look at all of the individually. For this I used a for loop and add the name of the effect tagged to the back of the name. Overall, this assignment was relatively siple and fun to experiment with for the first time. I'd like to try in the future and see if you can possibly layer the effects. For example take a picture that has the negative effect then use the watercolor or sketch effect on top. If that is the case would negaive over top of negative return the photo to normal or mess with it in a strange way.
+
+## Copypasta
+### Assignment Description
+In this assignment, we made a stop motion video using multiple pictures taken from the pi camera. We also added a button that would take a picture everytime it is pressed, to make taking pictures easier.
+### Evidence
+
+### Wiring
+
+### Reflection
