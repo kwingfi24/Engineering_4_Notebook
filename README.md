@@ -1,7 +1,7 @@
 # Engineering_4_Notebook
 Engineering 4 - Raspberry Pi, Python, Onshape
 ## Table of Contents
-* [Python Dice Roller](#PythonDiceRoller)
+* [Python Dice Roller](#Python_Dice_Roller)
 * [Python Calculator](#Python_Calculator)
 * [Quadratic Solver](#Quadratic_Solver)
 * [Strings and loops](#Strings_and_loops)
